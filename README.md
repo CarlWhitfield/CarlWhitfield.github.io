@@ -8,3 +8,5 @@ Webpage for teaching materials
 [Section 1--3: Gappy notes](https://carlwhitfield.github.io/gappy_notes_secs1-3/index.html)
 
 [Section 4: Gappy notes](https://carlwhitfield.github.io/gappy_notes_sec4/index.html)
+
+[Section 5: Gappy notes](https://carlwhitfield.github.io/gappy_notes_sec5/index.html)
