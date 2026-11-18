@@ -1,0 +1,650 @@
+<!DOCTYPE html><html class="bml_mathjax4" lang="en-GB">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<title>5 Complex Numbers ‣ MATH19641: Mathematics 1Q1 Lecture Notes (Completed version) – Weeks 1–8</title>
+<!--Generated on Wed Nov 18 15:10:39 2026 by LaTeXML (version 0.8.8) http://dlmf.nist.gov/LaTeXML/.-->
+<!--Document created on Semester 1 – Academic Year 2026/27.-->
+
+<link rel="stylesheet" href="LaTeXML.css" type="text/css">
+<link rel="stylesheet" href="ltx-article.css" type="text/css">
+<link rel="stylesheet" href="bookml/gitbook/css/style.css" type="text/css">
+<link rel="stylesheet" href="bookml/gitbook/css/plugin-table.css" type="text/css">
+<link rel="stylesheet" href="bookml/gitbook/css/plugin-search.css" type="text/css">
+<link rel="stylesheet" href="bookml/gitbook/css/plugin-bookdown.css" type="text/css">
+<link rel="stylesheet" href="bookml/gitbook/css/plugin-fontsettings.css" type="text/css">
+<link rel="stylesheet" href="bookml/CSS/style.css" type="text/css">
+<link rel="stylesheet" href="bookml/CSS/style.gitbook,plain.css" type="text/css">
+<link rel="stylesheet" href="bookml/CSS/style.gitbook.css" type="text/css">
+<script src="bmluser/00-plotly.js"></script>
+<script src="bmluser/argand_power_plotly_bookml.js"></script>
+<script src="bmluser/bcc-alternative-plotly-widget.js"></script>
+<script src="bmluser/bcc-primitive-plotly-widget.js"></script>
+<link rel="stylesheet" href="bmluser/boxes.css" type="text/css">
+<link rel="stylesheet" href="bmluser/colors.gitbook-complete_notes.css" type="text/css">
+<script src="bmluser/cross-product-plotly-widget.js"></script>
+<link rel="stylesheet" href="bmluser/details.css" type="text/css">
+<script src="bmluser/parametric-curve-widget-with-tangent.js"></script>
+<script src="bmluser/parametric-curve-widget.js"></script>
+<script src="bmluser/sine-secant-zoom-bookml.js"></script>
+<script src="bmluser/straight-line-widget.js"></script><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script><script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6"></script>
+<link rel="up" href="index.html" title="MATH19641: Mathematics 1Q1 Lecture Notes (Completed version) – Weeks 1–8">
+<link rel="start" href="index.html" title="MATH19641: Mathematics 1Q1 Lecture Notes (Completed version) – Weeks 1–8">
+<link rel="prev" href="S4.html" title="4 Vectors ‣ MATH19641: Mathematics 1Q1 Lecture Notes (Completed version) – Weeks 1–8">
+<link rel="section" href="S0.html" title="0 Introduction ‣ MATH19641: Mathematics 1Q1 Lecture Notes (Completed version) – Weeks 1–8">
+<link rel="section" href="S1.html" title="1 Geometry and Functions ‣ MATH19641: Mathematics 1Q1 Lecture Notes (Completed version) – Weeks 1–8">
+<link rel="section" href="S2.html" title="2 Differentiation ‣ MATH19641: Mathematics 1Q1 Lecture Notes (Completed version) – Weeks 1–8">
+<link rel="section" href="S3.html" title="3 Integration ‣ MATH19641: Mathematics 1Q1 Lecture Notes (Completed version) – Weeks 1–8">
+<link rel="section" href="S4.html" title="4 Vectors ‣ MATH19641: Mathematics 1Q1 Lecture Notes (Completed version) – Weeks 1–8">
+<style>:root{--bml-ltx-font-size:10.95;--bml-ltxml-dpi:96.36}</style>
+<script src="bookml/js/mathjax4.js" defer></script>
+</head>
+<body class="bml_class_article">
+<div class="book without-animation font-size-2 font-family-1" data-basepath=".">
+<a href="#bml-main-content" tabindex="0" class="bml-skip-to-content">Skip to content.</a>
+<div class="book-summary"><nav class="ltx_page_navbar">
+<ul class="ltx_toclist summary">
+<li>
+<a href="index.html" title="" class="ltx_ref" rel="start">MATH19641: Mathematics 1Q1 Lecture Notes (Completed version) – Weeks 1–8</a>
+</li>
+<li class="divider" aria-hidden="true"></li>
+<li data-level="0" data-path="S0.html" class="ltx_tocentry ltx_tocentry_section  chapter "><a href="S0.html" title="In MATH19641: Mathematics 1Q1 Lecture Notes (Completed version) – Weeks 1–8" class="ltx_ref"><b><span class="ltx_tag ltx_tag_ref">0 </span></b>Introduction</a></li>
+<li data-level="1" data-path="S1.html" class="ltx_tocentry ltx_tocentry_section  chapter "><a href="S1.html" title="In MATH19641: Mathematics 1Q1 Lecture Notes (Completed version) – Weeks 1–8" class="ltx_ref"><b><span class="ltx_tag ltx_tag_ref">1 </span></b>Geometry and Functions</a></li>
+<li data-level="2" data-path="S2.html" class="ltx_tocentry ltx_tocentry_section  chapter "><a href="S2.html" title="In MATH19641: Mathematics 1Q1 Lecture Notes (Completed version) – Weeks 1–8" class="ltx_ref"><b><span class="ltx_tag ltx_tag_ref">2 </span></b>Differentiation</a></li>
+<li data-level="3" data-path="S3.html" class="ltx_tocentry ltx_tocentry_section  chapter "><a href="S3.html" title="In MATH19641: Mathematics 1Q1 Lecture Notes (Completed version) – Weeks 1–8" class="ltx_ref"><b><span class="ltx_tag ltx_tag_ref">3 </span></b>Integration</a></li>
+<li data-level="4" data-path="S4.html" class="ltx_tocentry ltx_tocentry_section  chapter "><a href="S4.html" title="In MATH19641: Mathematics 1Q1 Lecture Notes (Completed version) – Weeks 1–8" class="ltx_ref"><b><span class="ltx_tag ltx_tag_ref">4 </span></b>Vectors</a></li>
+<li data-level="5" data-path="" class="ltx_tocentry ltx_tocentry_section ltx_ref_self  chapter active">
+<a href="" title="In MATH19641: Mathematics 1Q1 Lecture Notes (Completed version) – Weeks 1–8" aria-current="page" class="ltx_ref"><b><span class="ltx_tag ltx_tag_ref">5 </span></b>Complex Numbers</a>
+<ol class="ltx_toclist ltx_toclist_section">
+<li data-level="5.1" data-path="" class="ltx_tocentry ltx_tocentry_subsection  chapter "><a href="#SS1" title="In 5 Complex Numbers ‣ MATH19641: Mathematics 1Q1 Lecture Notes (Completed version) – Weeks 1–8" class="ltx_ref"><b><span class="ltx_tag ltx_tag_ref">5.1 </span></b>Introduction to complex numbers</a></li>
+<li data-level="5.2" data-path="" class="ltx_tocentry ltx_tocentry_subsection  chapter "><a href="#SS2" title="In 5 Complex Numbers ‣ MATH19641: Mathematics 1Q1 Lecture Notes (Completed version) – Weeks 1–8" class="ltx_ref"><b><span class="ltx_tag ltx_tag_ref">5.2 </span></b>Arithmetic of complex numbers</a></li>
+</ol>
+</li>
+</ul>
+</nav></div>
+
+<div class="ltx_page_main book-body fixed">
+<div class="body-inner">
+<header class="book-header fixed" aria-label="toolbar"><span class="bml-separator"></span></header>
+<div class="page-wrapper" tabindex="-1" role="main">
+<div class="ltx_page_content page-inner" id="bml-main-content">
+<script src="bookml/gitbook/js/app.min.js"></script>
+<script src="bookml/gitbook/js/jquery.highlight.js"></script>
+<script src="bookml/gitbook/js/plugin-search.js"></script>
+<script src="bookml/gitbook/js/plugin-fontsettings.js"></script>
+<script src="bookml/gitbook/js/plugin-bookdown.js"></script>
+<script type="text/javascript">
+                  gitbook.require(["gitbook"], function(gitbook) {
+                  gitbook.start({
+                    "fontsettings": {
+                      "theme": "white",
+                      "family": "sans",
+                      "size": 2
+                    },
+                    "download": [ [ "complete_notes.pdf", "PDF (serif)" ], [ "complete_notes-sans.pdf", "PDF (sans serif)" ], [ "complete_notes-sans-large.pdf", "PDF (sans, large)" ], ],
+                    "search": {
+                      "engine": "fuse"
+                    },
+                    "toc": {
+                      "collapse": "none"
+                    }
+                  });
+                });
+              </script>
+
+<section class="ltx_section ltx_authors_1line normal" lang="en-GB">
+<div class="section level1">
+<h1 class="ltx_title ltx_title_section">
+<span class="ltx_tag ltx_tag_section header-section-number">5</span> Complex Numbers</h1>
+
+<div id="p1" class="ltx_para ltx_noindent">
+<div class="lo-box">
+        
+        <div class="lo-box-title">
+          
+          
+<p class="ltx_p">Intended Learning Outcomes</p>
+        </div>
+        <div class="box-content">
+          
+          
+<p class="ltx_p">The relevant ILOs for this section are</p>
+          
+<ul id="I1" class="ltx_itemize">
+<li id="I1.i1" class="ltx_item" style="list-style-type:none;">
+<span class="ltx_tag ltx_tag_item">•</span><div id="I1.i1.p1" class="ltx_para ltx_noindent">​<p class="ltx_p"><span class="ltx_text ltx_font_bold">[ILO6]</span> Carry out arithmetic using complex numbers and hence solve polynomial and power equations.</p>
+</div>
+</li>
+</ul>
+        </div>
+      </div>
+</div>
+<section id="SS1" class="ltx_subsection normal">
+<div class="section level2">
+<h2 class="ltx_title ltx_title_subsection">
+<span class="ltx_tag ltx_tag_subsection header-section-number">5.1</span> Introduction to complex numbers</h2>
+
+<div id="SS1.p1" class="ltx_para ltx_noindent">
+<div class="lo-box">
+          
+          <div class="lo-box-title">
+            
+            
+<p class="ltx_p">Learning Outcomes</p>
+          </div>
+          <div class="box-content">
+            
+            
+<p class="ltx_p">On completion of this subsection, students will be able to</p>
+            
+<ul id="I2" class="ltx_itemize">
+<li id="I2.i1" class="ltx_item" style="list-style-type:none;">
+<span class="ltx_tag ltx_tag_item">•</span><div id="I2.i1.p1" class="ltx_para">​<p class="ltx_p">Define real, imaginary and complex numbers and the complex conjugate</p>
+</div>
+</li>
+<li id="I2.i2" class="ltx_item" style="list-style-type:none;">
+<span class="ltx_tag ltx_tag_item">•</span><div id="I2.i2.p1" class="ltx_para ltx_noindent">​<p class="ltx_p">Plot complex numbers on an Argand diagram</p>
+</div>
+</li>
+</ul>
+          </div>
+        </div>
+</div>
+<div id="SS1.p2" class="ltx_para ltx_noindent">
+<p class="ltx_p">Consider the equation <math id="SS1.p2.m1" class="ltx_Math" alttext="{z}^{2}-8z+15=0" display="inline"><semantics><mrow><mrow><mrow><msup><mi>z</mi><mn>2</mn></msup><mo>−</mo><mrow><mn>8</mn><mo>⁢</mo><mi>z</mi></mrow></mrow><mo>+</mo><mn>15</mn></mrow><mo>=</mo><mn>0</mn></mrow><annotation encoding="application/x-tex">{z}^{2}-8z+15=0</annotation></semantics></math>. Completing the square</p>
+<div id="EGx44" class="ltx_equationgroup ltx_eqn_align bml_equationgroup bml_equation_container ltx_align_baseline">
+<div id="SS1.Ex1" class="ltx_equation bml_equation ltx_align_baseline" role="group" aria-label="equation">
+<div class="ltx_td ltx_align_right bml_eqn_cell"><math id="SS1.Ex1.m1" class="ltx_Math" alttext="\displaystyle{\left(z-4\right)}^{2}-1" display="inline"><semantics><mrow><msup><mrow><mo>(</mo><mrow><mi>z</mi><mo>−</mo><mn>4</mn></mrow><mo>)</mo></mrow><mn>2</mn></msup><mo>−</mo><mn>1</mn></mrow><annotation encoding="application/x-tex">\displaystyle{\left(z-4\right)}^{2}-1</annotation></semantics></math></div>
+<div class="ltx_td ltx_align_left bml_eqn_cell"><math id="SS1.Ex1.m2" class="ltx_Math" alttext="\displaystyle{}=0" display="inline"><semantics><mrow><mi></mi><mo>=</mo><mn>0</mn></mrow><annotation encoding="application/x-tex">\displaystyle{}=0</annotation></semantics></math></div>
+</div>
+<div id="SS1.Ex2" class="ltx_equation bml_equation ltx_align_baseline" role="group" aria-label="equation">
+<div class="ltx_td ltx_align_right bml_eqn_cell"><math id="SS1.Ex2.m1" class="ltx_Math" alttext="\displaystyle z-4" display="inline"><semantics><mrow><mi>z</mi><mo>−</mo><mn>4</mn></mrow><annotation encoding="application/x-tex">\displaystyle z-4</annotation></semantics></math></div>
+<div class="ltx_td ltx_align_left bml_eqn_cell"><math id="SS1.Ex2.m2" class="ltx_Math" alttext="\displaystyle{}=\pm 1" display="inline"><semantics><mrow><mi></mi><mo>=</mo><mrow><mo>±</mo><mn>1</mn></mrow></mrow><annotation encoding="application/x-tex">\displaystyle{}=\pm 1</annotation></semantics></math></div>
+</div>
+<div id="SS1.Ex3" class="ltx_equation bml_equation ltx_align_baseline" role="group" aria-label="equation">
+<div class="ltx_td ltx_align_right bml_eqn_cell"><math id="SS1.Ex3.m1" class="ltx_Math" alttext="\displaystyle\therefore z" display="inline"><semantics><mrow><mi></mi><mo>∴</mo><mi>z</mi></mrow><annotation encoding="application/x-tex">\displaystyle\therefore z</annotation></semantics></math></div>
+<div class="ltx_td ltx_align_left bml_eqn_cell"><math id="SS1.Ex3.m2" class="ltx_Math" alttext="\displaystyle{}=4\pm 1" display="inline"><semantics><mrow><mi></mi><mo>=</mo><mrow><mn>4</mn><mo>±</mo><mn>1</mn></mrow></mrow><annotation encoding="application/x-tex">\displaystyle{}=4\pm 1</annotation></semantics></math></div>
+</div>
+</div>
+<p class="ltx_p">and so <math id="SS1.p2.m2" class="ltx_Math" alttext="z=3" display="inline"><semantics><mrow><mi>z</mi><mo>=</mo><mn>3</mn></mrow><annotation encoding="application/x-tex">z=3</annotation></semantics></math> or <math id="SS1.p2.m3" class="ltx_Math" alttext="z=5" display="inline"><semantics><mrow><mi>z</mi><mo>=</mo><mn>5</mn></mrow><annotation encoding="application/x-tex">z=5</annotation></semantics></math>.</p>
+</div>
+<div id="SS1.p3" class="ltx_para">
+<p class="ltx_p">Now, consider the equation <math id="SS1.p3.m1" class="ltx_Math" alttext="{z}^{2}-8z+17=0" display="inline"><semantics><mrow><mrow><mrow><msup><mi>z</mi><mn>2</mn></msup><mo>−</mo><mrow><mn>8</mn><mo>⁢</mo><mi>z</mi></mrow></mrow><mo>+</mo><mn>17</mn></mrow><mo>=</mo><mn>0</mn></mrow><annotation encoding="application/x-tex">{z}^{2}-8z+17=0</annotation></semantics></math>. Completing the square again</p>
+<div id="EGx45" class="ltx_equationgroup ltx_eqn_align bml_equationgroup bml_equation_container ltx_align_baseline">
+<div id="SS1.Ex4" class="ltx_equation bml_equation ltx_align_baseline" role="group" aria-label="equation">
+<div class="ltx_td ltx_align_right bml_eqn_cell"><math id="SS1.Ex4.m1" class="ltx_Math" alttext="\displaystyle{\left(z-4\right)}^{2}+1" display="inline"><semantics><mrow><msup><mrow><mo>(</mo><mrow><mi>z</mi><mo>−</mo><mn>4</mn></mrow><mo>)</mo></mrow><mn>2</mn></msup><mo>+</mo><mn>1</mn></mrow><annotation encoding="application/x-tex">\displaystyle{\left(z-4\right)}^{2}+1</annotation></semantics></math></div>
+<div class="ltx_td ltx_align_left bml_eqn_cell"><math id="SS1.Ex4.m2" class="ltx_Math" alttext="\displaystyle{}=0" display="inline"><semantics><mrow><mi></mi><mo>=</mo><mn>0</mn></mrow><annotation encoding="application/x-tex">\displaystyle{}=0</annotation></semantics></math></div>
+</div>
+<div id="SS1.Ex5" class="ltx_equation bml_equation ltx_align_baseline" role="group" aria-label="equation">
+<div class="ltx_td ltx_align_right bml_eqn_cell"><math id="SS1.Ex5.m1" class="ltx_Math" alttext="\displaystyle z-4" display="inline"><semantics><mrow><mi>z</mi><mo>−</mo><mn>4</mn></mrow><annotation encoding="application/x-tex">\displaystyle z-4</annotation></semantics></math></div>
+<div class="ltx_td ltx_align_left bml_eqn_cell"><math id="SS1.Ex5.m2" class="ltx_Math" alttext="\displaystyle{}=\pm\sqrt{-1}" display="inline"><semantics><mrow><mi></mi><mo>=</mo><mrow><mo>±</mo><msqrt><mrow><mo>−</mo><mn>1</mn></mrow></msqrt></mrow></mrow><annotation encoding="application/x-tex">\displaystyle{}=\pm\sqrt{-1}</annotation></semantics></math></div>
+</div>
+<div id="SS1.Ex6" class="ltx_equation bml_equation ltx_align_baseline" role="group" aria-label="equation">
+<div class="ltx_td ltx_align_right bml_eqn_cell"><math id="SS1.Ex6.m1" class="ltx_Math" alttext="\displaystyle\therefore z" display="inline"><semantics><mrow><mi></mi><mo>∴</mo><mi>z</mi></mrow><annotation encoding="application/x-tex">\displaystyle\therefore z</annotation></semantics></math></div>
+<div class="ltx_td ltx_align_left bml_eqn_cell"><math id="SS1.Ex6.m2" class="ltx_Math" alttext="\displaystyle{}=4\pm\sqrt{-1}\;." display="inline"><semantics><mrow><mrow><mi></mi><mo>=</mo><mrow><mn>4</mn><mo>±</mo><msqrt><mrow><mo>−</mo><mn>1</mn></mrow></msqrt></mrow></mrow><mo>.</mo></mrow><annotation encoding="application/x-tex">\displaystyle{}=4\pm\sqrt{-1}\;.</annotation></semantics></math></div>
+</div>
+</div>
+<p class="ltx_p">The solution does not exist, <span class="ltx_text ltx_font_italic">i.e.</span> it has no ‘real’ roots. These two quadratics are plotted in figure <a href="#F1" title="Figure 5.1 ‣ 5.1 Introduction to complex numbers ‣ 5 Complex Numbers ‣ MATH19641: Mathematics 1Q1 Lecture Notes (Completed version) – Weeks 1–8" class="ltx_ref"><span class="ltx_text ltx_ref_tag">5.1</span></a>.</p>
+</div>
+<figure id="F1" class="ltx_figure"><div class="bml-overflow-wrapper"><img src="Figures/Section5/quadratic_roots.png" id="F1.g1" class="ltx_graphics ltx_centering ltx_img_landscape" width="289" height="231" alt="Refer to caption"></div>
+<figcaption class="ltx_caption ltx_centering"><span class="ltx_tag ltx_tag_figure"><span class="ltx_text" style="font-size:91%;">Figure 5.1</span>: </span><span class="ltx_text" style="font-size:91%;">The blue line shows the example quadratic with two real roots, indicated by the dots. The orange line shows the example case with no real roots. </span></figcaption>
+</figure>
+<div id="SS1.p4" class="ltx_para ltx_noindent">
+<p class="ltx_p">Let’s imagine that <math id="SS1.p4.m1" class="ltx_Math" alttext="\sqrt{-1}" display="inline"><semantics><msqrt><mrow><mo>−</mo><mn>1</mn></mrow></msqrt><annotation encoding="application/x-tex">\sqrt{-1}</annotation></semantics></math> does exist, by which we mean that it is some quantity that we can manipulate algebraically. We define</p>
+<div id="EGx46" class="ltx_equationgroup ltx_eqn_align bml_equationgroup bml_equation_container ltx_align_baseline">
+<div id="SS1.E1" class="ltx_equation bml_equation ltx_align_baseline" role="region" aria-labelledby="bml-auto-id1">
+<span class="ltx_tag ltx_tag_equation ltx_eqn_eqno" id="bml-auto-id1"><span class="bml_sr_only">equation </span>(5.1.1)</span>
+<span class="ltx_tag ltx_tag_equation ltx_eqn_eqno">(5.1.1)</span>
+<div class="ltx_td ltx_align_right bml_eqn_cell"><math id="SS1.E1.m1" class="ltx_Math" alttext="\displaystyle i=\sqrt{-1}\;." display="inline"><semantics><mrow><mrow><mi>i</mi><mo>=</mo><msqrt><mrow><mo>−</mo><mn>1</mn></mrow></msqrt></mrow><mo>.</mo></mrow><annotation encoding="application/x-tex">\displaystyle i=\sqrt{-1}\;.</annotation></semantics></math></div>
+</div>
+</div>
+<p class="ltx_p">Here <math id="SS1.p4.m2" class="ltx_Math" alttext="i" display="inline"><semantics><mi>i</mi><annotation encoding="application/x-tex">i</annotation></semantics></math> is an “imaginary” number. You might also see this called <math id="SS1.p4.m3" class="ltx_Math" alttext="j" display="inline"><semantics><mi>j</mi><annotation encoding="application/x-tex">j</annotation></semantics></math> (but not in this course). Any multiple of <math id="SS1.p4.m4" class="ltx_Math" alttext="i" display="inline"><semantics><mi>i</mi><annotation encoding="application/x-tex">i</annotation></semantics></math> is also an imaginary number <span class="ltx_text ltx_font_italic">e.g.</span> <math id="SS1.p4.m5" class="ltx_Math" alttext="3i" display="inline"><semantics><mrow><mn>3</mn><mo>⁢</mo><mi>i</mi></mrow><annotation encoding="application/x-tex">3i</annotation></semantics></math>, <math id="SS1.p4.m6" class="ltx_Math" alttext="\sqrt{2}i" display="inline"><semantics><mrow><msqrt><mn>2</mn></msqrt><mo>⁢</mo><mi>i</mi></mrow><annotation encoding="application/x-tex">\sqrt{2}i</annotation></semantics></math>, <math id="SS1.p4.m7" class="ltx_Math" alttext="\frac{4i}{5}" display="inline"><semantics><mfrac><mrow><mn>4</mn><mo>⁢</mo><mi>i</mi></mrow><mn>5</mn></mfrac><annotation encoding="application/x-tex">\frac{4i}{5}</annotation></semantics></math>, <math id="SS1.p4.m8" class="ltx_Math" alttext="\pi i" display="inline"><semantics><mrow><mi>π</mi><mo>⁢</mo><mi>i</mi></mrow><annotation encoding="application/x-tex">\pi i</annotation></semantics></math> are all imaginary numbers.</p>
+</div>
+<div id="SS1.p5" class="ltx_para ltx_noindent">
+<div class="ex-box">
+          
+          
+<div id="SS1.Thmex1" class="ltx_theorem ltx_theorem_ex" role="region" aria-labelledby="bml-auto-id2">
+<div class="ltx_title ltx_runin ltx_title_theorem">
+<span class="ltx_tag ltx_tag_theorem header-section-number" id="bml-auto-id2"><span class="ltx_text ltx_font_bold">Example 5.1.1</span></span><span class="ltx_text ltx_font_bold"> </span>(DIY)<span class="ltx_text ltx_font_bold">.</span>
+</div>
+<div id="SS1.Thmex1.p1" class="ltx_para">
+<p class="ltx_p">Express the solution to the following equations in terms of <math id="SS1.Thmex1.p1.m1" class="ltx_Math" alttext="i" display="inline"><semantics><mi>i</mi><annotation encoding="application/x-tex">i</annotation></semantics></math></p>
+<div id="SS1.Ex7" class="ltx_equation bml_equation bml_equation_container ltx_align_baseline">
+<div class="ltx_Math bml_eqn_cell ltx_align_center"><math id="SS1.Ex7.m1" class="ltx_Math" alttext="{z}^{2}=-1\qquad\qquad{w}^{2}=-16\qquad\qquad{v}^{2}=-28" display="block"><semantics><mrow><mrow><msup><mi>z</mi><mn>2</mn></msup><mo>=</mo><mrow><mo>−</mo><mn>1</mn></mrow></mrow><mspace width="4.38em"></mspace><mrow><mrow><msup><mi>w</mi><mn>2</mn></msup><mo>=</mo><mrow><mo>−</mo><mn>16</mn></mrow></mrow><mspace width="4.38em"></mspace><mrow><msup><mi>v</mi><mn>2</mn></msup><mo>=</mo><mrow><mo>−</mo><mn>28</mn></mrow></mrow></mrow></mrow><annotation encoding="application/x-tex">{z}^{2}=-1\qquad\qquad{w}^{2}=-16\qquad\qquad{v}^{2}=-28</annotation></semantics></math></div>
+</div>
+</div>
+</div>
+        </div>
+</div>
+<div id="SS1.p6" class="ltx_para ltx_noindent">
+<details>
+          <summary>Solution</summary>
+          <div class="box-content">
+            
+            
+<div id="EGx47" class="ltx_equationgroup ltx_eqn_align bml_equationgroup bml_equation_container ltx_align_baseline">
+<div id="SS1.Ex8" class="ltx_equation bml_equation ltx_align_baseline" role="group" aria-label="equation">
+<div class="ltx_td ltx_align_right bml_eqn_cell"><math id="SS1.Ex8.m1" class="ltx_Math" alttext="\displaystyle z=\pm\sqrt{-1}" display="inline"><semantics><mrow><mi>z</mi><mo>=</mo><mrow><mo>±</mo><msqrt><mrow><mo>−</mo><mn>1</mn></mrow></msqrt></mrow></mrow><annotation encoding="application/x-tex">\displaystyle z=\pm\sqrt{-1}</annotation></semantics></math></div>
+<div class="ltx_td ltx_align_left bml_eqn_cell"><math id="SS1.Ex8.m2" class="ltx_Math" alttext="\displaystyle{}=\pm i" display="inline"><semantics><mrow><mi></mi><mo>=</mo><mrow><mo>±</mo><mi>i</mi></mrow></mrow><annotation encoding="application/x-tex">\displaystyle{}=\pm i</annotation></semantics></math></div>
+</div>
+<div id="SS1.Ex9" class="ltx_equation bml_equation ltx_align_baseline" role="group" aria-label="equation">
+<div class="ltx_td ltx_align_right bml_eqn_cell"><math id="SS1.Ex9.m1" class="ltx_Math" alttext="\displaystyle w=\pm\sqrt{16}\sqrt{-1}" display="inline"><semantics><mrow><mi>w</mi><mo>=</mo><mrow><mo>±</mo><mrow><msqrt><mn>16</mn></msqrt><mo>⁢</mo><msqrt><mrow><mo>−</mo><mn>1</mn></mrow></msqrt></mrow></mrow></mrow><annotation encoding="application/x-tex">\displaystyle w=\pm\sqrt{16}\sqrt{-1}</annotation></semantics></math></div>
+<div class="ltx_td ltx_align_left bml_eqn_cell"><math id="SS1.Ex9.m2" class="ltx_Math" alttext="\displaystyle{}=\pm 4i" display="inline"><semantics><mrow><mi></mi><mo>=</mo><mrow><mo>±</mo><mrow><mn>4</mn><mo>⁢</mo><mi>i</mi></mrow></mrow></mrow><annotation encoding="application/x-tex">\displaystyle{}=\pm 4i</annotation></semantics></math></div>
+</div>
+<div id="SS1.Ex10" class="ltx_equation bml_equation ltx_align_baseline" role="group" aria-label="equation">
+<div class="ltx_td ltx_align_right bml_eqn_cell"><math id="SS1.Ex10.m1" class="ltx_Math" alttext="\displaystyle v=\pm\sqrt{28}\sqrt{-1}" display="inline"><semantics><mrow><mi>v</mi><mo>=</mo><mrow><mo>±</mo><mrow><msqrt><mn>28</mn></msqrt><mo>⁢</mo><msqrt><mrow><mo>−</mo><mn>1</mn></mrow></msqrt></mrow></mrow></mrow><annotation encoding="application/x-tex">\displaystyle v=\pm\sqrt{28}\sqrt{-1}</annotation></semantics></math></div>
+<div class="ltx_td ltx_align_left bml_eqn_cell"><math id="SS1.Ex10.m2" class="ltx_Math" alttext="\displaystyle{}=\pm 2\sqrt{7}i" display="inline"><semantics><mrow><mi></mi><mo>=</mo><mrow><mo>±</mo><mrow><mn>2</mn><mo>⁢</mo><msqrt><mn>7</mn></msqrt><mo>⁢</mo><mi>i</mi></mrow></mrow></mrow><annotation encoding="application/x-tex">\displaystyle{}=\pm 2\sqrt{7}i</annotation></semantics></math></div>
+</div>
+</div>
+          </div>
+        </details>
+</div>
+<div id="SS1.p7" class="ltx_para ltx_noindent">
+<p class="ltx_p">Return to the equation <math id="SS1.p7.m1" class="ltx_Math" alttext="{z}^{2}-8z+17=0" display="inline"><semantics><mrow><mrow><mrow><msup><mi>z</mi><mn>2</mn></msup><mo>−</mo><mrow><mn>8</mn><mo>⁢</mo><mi>z</mi></mrow></mrow><mo>+</mo><mn>17</mn></mrow><mo>=</mo><mn>0</mn></mrow><annotation encoding="application/x-tex">{z}^{2}-8z+17=0</annotation></semantics></math>. We arrived at <math id="SS1.p7.m2" class="ltx_Math" alttext="z=4\pm\sqrt{-1}" display="inline"><semantics><mrow><mi>z</mi><mo>=</mo><mrow><mn>4</mn><mo>±</mo><msqrt><mrow><mo>−</mo><mn>1</mn></mrow></msqrt></mrow></mrow><annotation encoding="application/x-tex">z=4\pm\sqrt{-1}</annotation></semantics></math> or <math id="SS1.p7.m3" class="ltx_Math" alttext="z=4\pm i" display="inline"><semantics><mrow><mi>z</mi><mo>=</mo><mrow><mn>4</mn><mo>±</mo><mi>i</mi></mrow></mrow><annotation encoding="application/x-tex">z=4\pm i</annotation></semantics></math>. This is a <span class="ltx_text ltx_font_bold">complex number</span>. In <span class="ltx_text ltx_font_bold">standard form</span>, a complex number is written as</p>
+<div id="EGx48" class="ltx_equationgroup ltx_eqn_align bml_equationgroup bml_equation_container ltx_align_baseline">
+<div id="SS1.E2" class="ltx_equation bml_equation ltx_align_baseline" role="region" aria-labelledby="bml-auto-id3">
+<span class="ltx_tag ltx_tag_equation ltx_eqn_eqno" id="bml-auto-id3"><span class="bml_sr_only">equation </span>(5.1.2)</span>
+<span class="ltx_tag ltx_tag_equation ltx_eqn_eqno">(5.1.2)</span>
+<div class="ltx_td ltx_align_right bml_eqn_cell"><math id="SS1.E2.m1" class="ltx_Math" alttext="\displaystyle z=x+yi\;." display="inline"><semantics><mrow><mrow><mi>z</mi><mo>=</mo><mrow><mi>x</mi><mo>+</mo><mrow><mi>y</mi><mo>⁢</mo><mi>i</mi></mrow></mrow></mrow><mo>.</mo></mrow><annotation encoding="application/x-tex">\displaystyle z=x+yi\;.</annotation></semantics></math></div>
+</div>
+</div>
+<p class="ltx_p">It has a real part and an imaginary part <math id="SS1.p7.m4" class="ltx_Math" alttext="\operatorname{Re}\left(z\right)=x" display="inline"><semantics><mrow><mrow><mi>Re</mi><mo>⁡</mo><mrow><mo>(</mo><mi>z</mi><mo>)</mo></mrow></mrow><mo>=</mo><mi>x</mi></mrow><annotation encoding="application/x-tex">\operatorname{Re}\left(z\right)=x</annotation></semantics></math> and <math id="SS1.p7.m5" class="ltx_Math" alttext="\operatorname{Im}\left(z\right)=y" display="inline"><semantics><mrow><mrow><mi>Im</mi><mo>⁡</mo><mrow><mo>(</mo><mi>z</mi><mo>)</mo></mrow></mrow><mo>=</mo><mi>y</mi></mrow><annotation encoding="application/x-tex">\operatorname{Im}\left(z\right)=y</annotation></semantics></math>. <span class="ltx_text ltx_font_bold">Note:</span> The imaginary part is a real number!</p>
+</div>
+<div id="SS1.p8" class="ltx_para">
+<p class="ltx_p"><span class="ltx_text ltx_font_bold">The Argand diagram</span> Figure <a href="#F2" title="Figure 5.2 ‣ 5.1 Introduction to complex numbers ‣ 5 Complex Numbers ‣ MATH19641: Mathematics 1Q1 Lecture Notes (Completed version) – Weeks 1–8" class="ltx_ref"><span class="ltx_text ltx_ref_tag">5.2</span></a> shows how a complex number can be understood as a two-dimensional number, consisting of a real part, which is on the real number line, and an imaginary part, which is on the imaginary number line.</p>
+</div>
+<figure id="F2" class="ltx_figure"><div class="bml-overflow-wrapper"><img src="Figures/Section5/complex_number_lines.png" id="F2.g1" class="ltx_graphics ltx_centering ltx_img_landscape" width="433" height="240" alt="Refer to caption"></div>
+<figcaption class="ltx_caption ltx_centering"><span class="ltx_tag ltx_tag_figure"><span class="ltx_text" style="font-size:91%;">Figure 5.2</span>: </span><span class="ltx_text" style="font-size:91%;">Complex numbers are comprised of two numbers (<math id="F2.m3" class="ltx_Math" alttext="x" display="inline"><semantics><mi>x</mi><annotation encoding="application/x-tex">x</annotation></semantics></math> and <math id="F2.m4" class="ltx_Math" alttext="y" display="inline"><semantics><mi>y</mi><annotation encoding="application/x-tex">y</annotation></semantics></math> in standard form), each of which can take any value on the number line. </span></figcaption>
+</figure>
+<div id="SS1.p9" class="ltx_para ltx_noindent">
+<p class="ltx_p">Figure <a href="#F3" title="Figure 5.3 ‣ 5.2 Arithmetic of complex numbers ‣ 5 Complex Numbers ‣ MATH19641: Mathematics 1Q1 Lecture Notes (Completed version) – Weeks 1–8" class="ltx_ref"><span class="ltx_text ltx_ref_tag">5.3</span></a>(a) shows an <span class="ltx_text ltx_font_bold">Argand Diagram</span>. It plots the real part of a complex number on the horizontal axis and the imaginary part on the vertical axis.</p>
+</div>
+<div id="SS1.p10" class="ltx_para ltx_noindent">
+<p class="ltx_p"><span class="ltx_text ltx_font_bold">The complex conjugate</span> Every complex number <math id="SS1.p10.m1" class="ltx_Math" alttext="z=x+yi" display="inline"><semantics><mrow><mi>z</mi><mo>=</mo><mrow><mi>x</mi><mo>+</mo><mrow><mi>y</mi><mo>⁢</mo><mi>i</mi></mrow></mrow></mrow><annotation encoding="application/x-tex">z=x+yi</annotation></semantics></math> has its (complex) <span class="ltx_text ltx_font_bold">conjugate</span> <math id="SS1.p10.m2" class="ltx_Math" alttext="\overline{z}=x-yi" display="inline"><semantics><mrow><mover accent="true"><mi>z</mi><mo>¯</mo></mover><mo>=</mo><mrow><mi>x</mi><mo>−</mo><mrow><mi>y</mi><mo>⁢</mo><mi>i</mi></mrow></mrow></mrow><annotation encoding="application/x-tex">\overline{z}=x-yi</annotation></semantics></math>. To find the conjugate, reverse the sign of the imaginary part. The conjugate is used in some operations e.g. division of complex numbers. It is also sometimes denoted <math id="SS1.p10.m3" class="ltx_Math" alttext="{z}^{\ast}" display="inline"><semantics><msup><mi>z</mi><mo>∗</mo></msup><annotation encoding="application/x-tex">{z}^{\ast}</annotation></semantics></math>.</p>
+</div>
+<div id="SS1.p11" class="ltx_para ltx_noindent">
+<div class="ex-box">
+          
+          
+<div id="SS1.Thmex2" class="ltx_theorem ltx_theorem_ex" role="region" aria-labelledby="bml-auto-id4">
+<div class="ltx_title ltx_runin ltx_title_theorem">
+<span class="ltx_tag ltx_tag_theorem header-section-number" id="bml-auto-id4"><span class="ltx_text ltx_font_bold">Example 5.1.2</span></span><span class="ltx_text ltx_font_bold"> </span>(Lecture)<span class="ltx_text ltx_font_bold">.</span>
+</div>
+<div id="SS1.Thmex2.p1" class="ltx_para">
+<p class="ltx_p">For the following complex numbers, find</p>
+<ol id="I3" class="ltx_enumerate">
+<li id="I3.i1" class="ltx_item" style="list-style-type:none;">
+<span class="ltx_tag ltx_tag_item">(a)</span><div id="I3.i1.p1" class="ltx_para">​<p class="ltx_p">their real and imaginary parts</p>
+</div>
+</li>
+<li id="I3.i2" class="ltx_item" style="list-style-type:none;">
+<span class="ltx_tag ltx_tag_item">(b)</span><div id="I3.i2.p1" class="ltx_para ltx_noindent">​<p class="ltx_p">their complex conjugates</p>
+</div>
+</li>
+</ol>
+<div id="SS1.Ex11" class="ltx_equation bml_equation bml_equation_container ltx_align_baseline">
+<div class="ltx_Math bml_eqn_cell ltx_align_center"><math id="SS1.Ex11.m1" class="ltx_Math" alttext="{z}_{1}=2+5i\qquad\qquad{z}_{2}=-7-2i" display="block"><semantics><mrow><mrow><msub><mi>z</mi><mn>1</mn></msub><mo>=</mo><mrow><mn>2</mn><mo>+</mo><mrow><mn>5</mn><mo>⁢</mo><mi>i</mi></mrow></mrow></mrow><mspace width="4.38em"></mspace><mrow><msub><mi>z</mi><mn>2</mn></msub><mo>=</mo><mrow><mrow><mo>−</mo><mn>7</mn></mrow><mo>−</mo><mrow><mn>2</mn><mo>⁢</mo><mi>i</mi></mrow></mrow></mrow></mrow><annotation encoding="application/x-tex">{z}_{1}=2+5i\qquad\qquad{z}_{2}=-7-2i</annotation></semantics></math></div>
+</div>
+<p class="ltx_p">Then plot <math id="SS1.Thmex2.p1.m1" class="ltx_Math" alttext="{z}_{1},{z}_{2},{\overline{z}}_{1},{\overline{z}}_{2}" display="inline"><semantics><mrow><msub><mi>z</mi><mn>1</mn></msub><mo>,</mo><msub><mi>z</mi><mn>2</mn></msub><mo>,</mo><msub><mover accent="true"><mi>z</mi><mo>¯</mo></mover><mn>1</mn></msub><mo>,</mo><msub><mover accent="true"><mi>z</mi><mo>¯</mo></mover><mn>2</mn></msub></mrow><annotation encoding="application/x-tex">{z}_{1},{z}_{2},{\overline{z}}_{1},{\overline{z}}_{2}</annotation></semantics></math> on an Argand Diagram.</p>
+</div>
+</div>
+        </div>
+</div>
+<div id="SS1.p12" class="ltx_para ltx_noindent">
+<details>
+          <summary>Solution</summary>
+          <div class="box-content">
+            
+            
+<p class="ltx_p">The real parts are <math id="SS1.p12.m1" class="ltx_Math" alttext="\operatorname{Re}\left({z}_{1}\right)=2" display="inline"><semantics><mrow><mrow><mi>Re</mi><mo>⁡</mo><mrow><mo>(</mo><msub><mi>z</mi><mn>1</mn></msub><mo>)</mo></mrow></mrow><mo>=</mo><mn>2</mn></mrow><annotation encoding="application/x-tex">\operatorname{Re}\left({z}_{1}\right)=2</annotation></semantics></math> and <math id="SS1.p12.m2" class="ltx_Math" alttext="\operatorname{Re}\left({z}_{2}\right)=-7" display="inline"><semantics><mrow><mrow><mi>Re</mi><mo>⁡</mo><mrow><mo>(</mo><msub><mi>z</mi><mn>2</mn></msub><mo>)</mo></mrow></mrow><mo>=</mo><mrow><mo>−</mo><mn>7</mn></mrow></mrow><annotation encoding="application/x-tex">\operatorname{Re}\left({z}_{2}\right)=-7</annotation></semantics></math>. The imaginary parts are <math id="SS1.p12.m3" class="ltx_Math" alttext="\operatorname{Im}\left({z}_{1}\right)=5" display="inline"><semantics><mrow><mrow><mi>Im</mi><mo>⁡</mo><mrow><mo>(</mo><msub><mi>z</mi><mn>1</mn></msub><mo>)</mo></mrow></mrow><mo>=</mo><mn>5</mn></mrow><annotation encoding="application/x-tex">\operatorname{Im}\left({z}_{1}\right)=5</annotation></semantics></math> and <math id="SS1.p12.m4" class="ltx_Math" alttext="\operatorname{Im}\left({z}_{2}\right)=-2" display="inline"><semantics><mrow><mrow><mi>Im</mi><mo>⁡</mo><mrow><mo>(</mo><msub><mi>z</mi><mn>2</mn></msub><mo>)</mo></mrow></mrow><mo>=</mo><mrow><mo>−</mo><mn>2</mn></mrow></mrow><annotation encoding="application/x-tex">\operatorname{Im}\left({z}_{2}\right)=-2</annotation></semantics></math>. The conjugates are <math id="SS1.p12.m5" class="ltx_Math" alttext="{\overline{z}}_{1}=2-5i" display="inline"><semantics><mrow><msub><mover accent="true"><mi>z</mi><mo>¯</mo></mover><mn>1</mn></msub><mo>=</mo><mrow><mn>2</mn><mo>−</mo><mrow><mn>5</mn><mo>⁢</mo><mi>i</mi></mrow></mrow></mrow><annotation encoding="application/x-tex">{\overline{z}}_{1}=2-5i</annotation></semantics></math> and <math id="SS1.p12.m6" class="ltx_Math" alttext="{\overline{z}}_{2}=-7+2i" display="inline"><semantics><mrow><msub><mover accent="true"><mi>z</mi><mo>¯</mo></mover><mn>2</mn></msub><mo>=</mo><mrow><mrow><mo>−</mo><mn>7</mn></mrow><mo>+</mo><mrow><mn>2</mn><mo>⁢</mo><mi>i</mi></mrow></mrow></mrow><annotation encoding="application/x-tex">{\overline{z}}_{2}=-7+2i</annotation></semantics></math>.</p>
+            <div class="bml-overflow-wrapper"><img src="Figures/Section5/example_512.png" id="SS1.p12.g1" class="ltx_graphics ltx_centering ltx_img_square" width="346" height="289" alt="[Uncaptioned image]"></div>
+          </div>
+        </details>
+</div>
+<div id="SS1.p13" class="ltx_para ltx_noindent">
+<div class="lo-box">
+          
+          <div class="lo-box-title">
+            
+            
+<p class="ltx_p">Recap</p>
+          </div>
+          <div class="box-content">
+            
+            
+<p class="ltx_p">Key points from section <a href="#SS1" title="5.1 Introduction to complex numbers ‣ 5 Complex Numbers ‣ MATH19641: Mathematics 1Q1 Lecture Notes (Completed version) – Weeks 1–8" class="ltx_ref"><span class="ltx_text ltx_ref_tag">5.1</span></a></p>
+            
+<ul id="I4" class="ltx_itemize">
+<li id="I4.i1" class="ltx_item" style="list-style-type:none;">
+<span class="ltx_tag ltx_tag_item">•</span><div id="I4.i1.p1" class="ltx_para">​<p class="ltx_p"><math id="I4.i1.p1.m1" class="ltx_Math" alttext="i=\sqrt{-1}" display="inline"><semantics><mrow><mi>i</mi><mo>=</mo><msqrt><mrow><mo>−</mo><mn>1</mn></mrow></msqrt></mrow><annotation encoding="application/x-tex">i=\sqrt{-1}</annotation></semantics></math> is an imaginary number (as is any multiple of <math id="I4.i1.p1.m2" class="ltx_Math" alttext="i" display="inline"><semantics><mi>i</mi><annotation encoding="application/x-tex">i</annotation></semantics></math>)</p>
+</div>
+</li>
+<li id="I4.i2" class="ltx_item" style="list-style-type:none;">
+<span class="ltx_tag ltx_tag_item">•</span><div id="I4.i2.p1" class="ltx_para">​<p class="ltx_p">A complex number is the sum of a real and imaginary number and can be written in standard form as <math id="I4.i2.p1.m1" class="ltx_Math" alttext="z=x+yi" display="inline"><semantics><mrow><mi>z</mi><mo>=</mo><mrow><mi>x</mi><mo>+</mo><mrow><mi>y</mi><mo>⁢</mo><mi>i</mi></mrow></mrow></mrow><annotation encoding="application/x-tex">z=x+yi</annotation></semantics></math></p>
+</div>
+</li>
+<li id="I4.i3" class="ltx_item" style="list-style-type:none;">
+<span class="ltx_tag ltx_tag_item">•</span><div id="I4.i3.p1" class="ltx_para">​<p class="ltx_p">An Argand Diagram plots the real part of a complex number on the x-axis and the imaginary part on the y-axis</p>
+</div>
+</li>
+<li id="I4.i4" class="ltx_item" style="list-style-type:none;">
+<span class="ltx_tag ltx_tag_item">•</span><div id="I4.i4.p1" class="ltx_para ltx_noindent">​<p class="ltx_p">Taking the conjugate of a complex number means reversing the sign of the imaginary part, i.e. <math id="I4.i4.p1.m1" class="ltx_Math" alttext="\overline{z}=x-yi" display="inline"><semantics><mrow><mover accent="true"><mi>z</mi><mo>¯</mo></mover><mo>=</mo><mrow><mi>x</mi><mo>−</mo><mrow><mi>y</mi><mo>⁢</mo><mi>i</mi></mrow></mrow></mrow><annotation encoding="application/x-tex">\overline{z}=x-yi</annotation></semantics></math></p>
+</div>
+</li>
+</ul>
+          </div>
+        </div>
+</div>
+</div>
+</section>
+<section id="SS2" class="ltx_subsection normal">
+<div class="section level2">
+<h2 class="ltx_title ltx_title_subsection">
+<span class="ltx_tag ltx_tag_subsection header-section-number">5.2</span> Arithmetic of complex numbers</h2>
+
+<div id="SS2.p1" class="ltx_para ltx_noindent">
+<div class="lo-box">
+          
+          <div class="lo-box-title">
+            
+            
+<p class="ltx_p">Learning Outcomes</p>
+          </div>
+          <div class="box-content">
+            
+            
+<p class="ltx_p">On completion of this subsection, students will be able to</p>
+            
+<ul id="I5" class="ltx_itemize">
+<li id="I5.i1" class="ltx_item" style="list-style-type:none;">
+<span class="ltx_tag ltx_tag_item">•</span><div id="I5.i1.p1" class="ltx_para">​<p class="ltx_p">Add, subtract, multiply, and divide complex numbers in standard form.</p>
+</div>
+</li>
+<li id="I5.i2" class="ltx_item" style="list-style-type:none;">
+<span class="ltx_tag ltx_tag_item">•</span><div id="I5.i2.p1" class="ltx_para ltx_noindent">​<p class="ltx_p">Find the magnitude of a complex number.</p>
+</div>
+</li>
+</ul>
+          </div>
+        </div>
+</div>
+<div id="SS2.p2" class="ltx_para ltx_noindent">
+<p class="ltx_p"><span class="ltx_text ltx_font_bold">Addition and subtraction of complex numbers.</span> For complex number arithmetic, we can treat <math id="SS2.p2.m1" class="ltx_Math" alttext="i" display="inline"><semantics><mi>i</mi><annotation encoding="application/x-tex">i</annotation></semantics></math> like a variable. Consider two complex numbers</p>
+<div id="EGx49" class="ltx_equationgroup ltx_eqn_align bml_equationgroup bml_equation_container ltx_align_baseline">
+<div id="SS2.Ex1" class="ltx_equation bml_equation ltx_align_baseline" role="group" aria-label="equation">
+<div class="ltx_td ltx_align_right bml_eqn_cell"><math id="SS2.Ex1.m1" class="ltx_Math" alttext="\displaystyle{z}_{1}" display="inline"><semantics><msub><mi>z</mi><mn>1</mn></msub><annotation encoding="application/x-tex">\displaystyle{z}_{1}</annotation></semantics></math></div>
+<div class="ltx_td ltx_align_left bml_eqn_cell"><math id="SS2.Ex1.m2" class="ltx_Math" alttext="\displaystyle{}={x}_{1}+{y}_{1}i" display="inline"><semantics><mrow><mi></mi><mo>=</mo><mrow><msub><mi>x</mi><mn>1</mn></msub><mo>+</mo><mrow><msub><mi>y</mi><mn>1</mn></msub><mo>⁢</mo><mi>i</mi></mrow></mrow></mrow><annotation encoding="application/x-tex">\displaystyle{}={x}_{1}+{y}_{1}i</annotation></semantics></math></div>
+</div>
+<div id="SS2.Ex2" class="ltx_equation bml_equation ltx_align_baseline" role="group" aria-label="equation">
+<div class="ltx_td ltx_align_right bml_eqn_cell"><math id="SS2.Ex2.m1" class="ltx_Math" alttext="\displaystyle{z}_{2}" display="inline"><semantics><msub><mi>z</mi><mn>2</mn></msub><annotation encoding="application/x-tex">\displaystyle{z}_{2}</annotation></semantics></math></div>
+<div class="ltx_td ltx_align_left bml_eqn_cell"><math id="SS2.Ex2.m2" class="ltx_Math" alttext="\displaystyle{}={x}_{2}+{y}_{2}i\;." display="inline"><semantics><mrow><mrow><mi></mi><mo>=</mo><mrow><msub><mi>x</mi><mn>2</mn></msub><mo>+</mo><mrow><msub><mi>y</mi><mn>2</mn></msub><mo>⁢</mo><mi>i</mi></mrow></mrow></mrow><mo>.</mo></mrow><annotation encoding="application/x-tex">\displaystyle{}={x}_{2}+{y}_{2}i\;.</annotation></semantics></math></div>
+</div>
+</div>
+<p class="ltx_p">These can be added together by adding the real parts and the imaginary parts separately</p>
+<div id="EGx50" class="ltx_equationgroup ltx_eqn_align bml_equationgroup bml_equation_container ltx_align_baseline">
+<div id="SS2.Ex3" class="ltx_equation bml_equation ltx_align_baseline" role="group" aria-label="equation">
+<div class="ltx_td ltx_align_right bml_eqn_cell"><math id="SS2.Ex3.m1" class="ltx_Math" alttext="\displaystyle{z}_{1}+{z}_{2}" display="inline"><semantics><mrow><msub><mi>z</mi><mn>1</mn></msub><mo>+</mo><msub><mi>z</mi><mn>2</mn></msub></mrow><annotation encoding="application/x-tex">\displaystyle{z}_{1}+{z}_{2}</annotation></semantics></math></div>
+<div class="ltx_td ltx_align_left bml_eqn_cell"><math id="SS2.Ex3.m2" class="ltx_Math" alttext="\displaystyle{}=\left({x}_{1}+{y}_{1}i\right)+({x}_{2}+{y}_{2}i)" display="inline"><semantics><mrow><mi></mi><mo>=</mo><mrow><mrow><mo>(</mo><mrow><msub><mi>x</mi><mn>1</mn></msub><mo>+</mo><mrow><msub><mi>y</mi><mn>1</mn></msub><mo>⁢</mo><mi>i</mi></mrow></mrow><mo>)</mo></mrow><mo>+</mo><mrow><mo stretchy="false">(</mo><mrow><msub><mi>x</mi><mn>2</mn></msub><mo>+</mo><mrow><msub><mi>y</mi><mn>2</mn></msub><mo>⁢</mo><mi>i</mi></mrow></mrow><mo stretchy="false">)</mo></mrow></mrow></mrow><annotation encoding="application/x-tex">\displaystyle{}=\left({x}_{1}+{y}_{1}i\right)+({x}_{2}+{y}_{2}i)</annotation></semantics></math></div>
+</div>
+<div id="SS2.Ex4" class="ltx_equation bml_equation ltx_align_baseline" role="group" aria-label="equation">
+<div class="ltx_td bml_eqn_cell"></div>
+<div class="ltx_td ltx_align_left bml_eqn_cell"><math id="SS2.Ex4.m1" class="ltx_Math" alttext="\displaystyle{}={\left({x}_{1}+{x}_{2}\right)}+{\left({y}_{1}+{y}_{2}\right)}i" display="inline"><semantics><mrow><mi></mi><mo>=</mo><mrow><mrow><mo>(</mo><mrow><msub><mi>x</mi><mn>1</mn></msub><mo>+</mo><msub><mi>x</mi><mn>2</mn></msub></mrow><mo>)</mo></mrow><mo>+</mo><mrow><mrow><mo>(</mo><mrow><msub><mi>y</mi><mn>1</mn></msub><mo>+</mo><msub><mi>y</mi><mn>2</mn></msub></mrow><mo>)</mo></mrow><mo>⁢</mo><mi>i</mi></mrow></mrow></mrow><annotation encoding="application/x-tex">\displaystyle{}={\left({x}_{1}+{x}_{2}\right)}+{\left({y}_{1}+{y}_{2}\right)}i</annotation></semantics></math></div>
+</div>
+</div>
+</div>
+<div id="SS2.p3" class="ltx_para ltx_noindent">
+<p class="ltx_p">The same is true for subtraction, subtract the real parts and imaginary parts separately</p>
+<div id="SS2.Ex5" class="ltx_equation bml_equation bml_equation_container ltx_align_baseline">
+<div class="ltx_Math bml_eqn_cell ltx_align_center"><math id="SS2.Ex5.m1" class="ltx_Math" alttext="{z}_{1}-{z}_{2}={\left({x}_{1}-{x}_{2}\right)}+{\left({y}_{1}-{y}_{2}\right)}i\;." display="block"><semantics><mrow><mrow><mrow><msub><mi>z</mi><mn>1</mn></msub><mo>−</mo><msub><mi>z</mi><mn>2</mn></msub></mrow><mo>=</mo><mrow><mrow><mo>(</mo><mrow><msub><mi>x</mi><mn>1</mn></msub><mo>−</mo><msub><mi>x</mi><mn>2</mn></msub></mrow><mo>)</mo></mrow><mo>+</mo><mrow><mrow><mo>(</mo><mrow><msub><mi>y</mi><mn>1</mn></msub><mo>−</mo><msub><mi>y</mi><mn>2</mn></msub></mrow><mo>)</mo></mrow><mo>⁢</mo><mi>i</mi></mrow></mrow></mrow><mo>.</mo></mrow><annotation encoding="application/x-tex">{z}_{1}-{z}_{2}={\left({x}_{1}-{x}_{2}\right)}+{\left({y}_{1}-{y}_{2}\right)}i\;.</annotation></semantics></math></div>
+</div>
+</div>
+<div id="SS2.p4" class="ltx_para ltx_noindent">
+<p class="ltx_p"><span class="ltx_text ltx_font_bold">Multiplication and division of complex numbers.</span> Consider two complex numbers <math id="SS2.p4.m1" class="ltx_Math" alttext="{z}_{1}={x}_{1}+{y}_{1}i" display="inline"><semantics><mrow><msub><mi>z</mi><mn>1</mn></msub><mo>=</mo><mrow><msub><mi>x</mi><mn>1</mn></msub><mo>+</mo><mrow><msub><mi>y</mi><mn>1</mn></msub><mo>⁢</mo><mi>i</mi></mrow></mrow></mrow><annotation encoding="application/x-tex">{z}_{1}={x}_{1}+{y}_{1}i</annotation></semantics></math> and <math id="SS2.p4.m2" class="ltx_Math" alttext="{z}_{2}={x}_{2}+{y}_{2}i" display="inline"><semantics><mrow><msub><mi>z</mi><mn>2</mn></msub><mo>=</mo><mrow><msub><mi>x</mi><mn>2</mn></msub><mo>+</mo><mrow><msub><mi>y</mi><mn>2</mn></msub><mo>⁢</mo><mi>i</mi></mrow></mrow></mrow><annotation encoding="application/x-tex">{z}_{2}={x}_{2}+{y}_{2}i</annotation></semantics></math>. These can be multiplied by expansion</p>
+<div id="EGx51" class="ltx_equationgroup ltx_eqn_align bml_equationgroup bml_equation_container ltx_align_baseline">
+<div id="SS2.Ex6" class="ltx_equation bml_equation ltx_align_baseline" role="group" aria-label="equation">
+<div class="ltx_td ltx_align_right bml_eqn_cell"><math id="SS2.Ex6.m1" class="ltx_Math" alttext="\displaystyle{z}_{1}{z}_{2}" display="inline"><semantics><mrow><msub><mi>z</mi><mn>1</mn></msub><mo>⁢</mo><msub><mi>z</mi><mn>2</mn></msub></mrow><annotation encoding="application/x-tex">\displaystyle{z}_{1}{z}_{2}</annotation></semantics></math></div>
+<div class="ltx_td ltx_align_left bml_eqn_cell"><math id="SS2.Ex6.m2" class="ltx_Math" alttext="\displaystyle{}=\left({x}_{1}+{y}_{1}i\right)\left({x}_{2}+{y}_{2}i\right)" display="inline"><semantics><mrow><mi></mi><mo>=</mo><mrow><mrow><mo>(</mo><mrow><msub><mi>x</mi><mn>1</mn></msub><mo>+</mo><mrow><msub><mi>y</mi><mn>1</mn></msub><mo>⁢</mo><mi>i</mi></mrow></mrow><mo>)</mo></mrow><mo>⁢</mo><mrow><mo>(</mo><mrow><msub><mi>x</mi><mn>2</mn></msub><mo>+</mo><mrow><msub><mi>y</mi><mn>2</mn></msub><mo>⁢</mo><mi>i</mi></mrow></mrow><mo>)</mo></mrow></mrow></mrow><annotation encoding="application/x-tex">\displaystyle{}=\left({x}_{1}+{y}_{1}i\right)\left({x}_{2}+{y}_{2}i\right)</annotation></semantics></math></div>
+</div>
+<div id="SS2.Ex7" class="ltx_equation bml_equation ltx_align_baseline" role="group" aria-label="equation">
+<div class="ltx_td bml_eqn_cell"></div>
+<div class="ltx_td ltx_align_left bml_eqn_cell"><math id="SS2.Ex7.m1" class="ltx_Math" alttext="\displaystyle{}={x}_{1}{x}_{2}+\left({x}_{1}{y}_{2}+{x}_{2}{y}_{1}\right)i+{y}%
+_{1}{y}_{2}{i}^{2}" display="inline"><semantics><mrow><mi></mi><mo>=</mo><mrow><mrow><msub><mi>x</mi><mn>1</mn></msub><mo>⁢</mo><msub><mi>x</mi><mn>2</mn></msub></mrow><mo>+</mo><mrow><mrow><mo>(</mo><mrow><mrow><msub><mi>x</mi><mn>1</mn></msub><mo>⁢</mo><msub><mi>y</mi><mn>2</mn></msub></mrow><mo>+</mo><mrow><msub><mi>x</mi><mn>2</mn></msub><mo>⁢</mo><msub><mi>y</mi><mn>1</mn></msub></mrow></mrow><mo>)</mo></mrow><mo>⁢</mo><mi>i</mi></mrow><mo>+</mo><mrow><msub><mi>y</mi><mn>1</mn></msub><mo>⁢</mo><msub><mi>y</mi><mn>2</mn></msub><mo>⁢</mo><msup><mi>i</mi><mn>2</mn></msup></mrow></mrow></mrow><annotation encoding="application/x-tex">\displaystyle{}={x}_{1}{x}_{2}+\left({x}_{1}{y}_{2}+{x}_{2}{y}_{1}\right)i+{y}%
+_{1}{y}_{2}{i}^{2}</annotation></semantics></math></div>
+</div>
+<div id="SS2.Ex8" class="ltx_equation bml_equation ltx_align_baseline" role="group" aria-label="equation">
+<div class="ltx_td bml_eqn_cell"></div>
+<div class="ltx_td ltx_align_left bml_eqn_cell"><math id="SS2.Ex8.m1" class="ltx_Math" alttext="\displaystyle{}={\left({x}_{1}{x}_{2}-{y}_{1}{y}_{2}\right)}+{\left({x}_{1}{y}%
+_{2}+{x}_{2}{y}_{1}\right)}i\;," display="inline"><semantics><mrow><mrow><mi></mi><mo>=</mo><mrow><mrow><mo>(</mo><mrow><mrow><msub><mi>x</mi><mn>1</mn></msub><mo>⁢</mo><msub><mi>x</mi><mn>2</mn></msub></mrow><mo>−</mo><mrow><msub><mi>y</mi><mn>1</mn></msub><mo>⁢</mo><msub><mi>y</mi><mn>2</mn></msub></mrow></mrow><mo>)</mo></mrow><mo>+</mo><mrow><mrow><mo>(</mo><mrow><mrow><msub><mi>x</mi><mn>1</mn></msub><mo>⁢</mo><msub><mi>y</mi><mn>2</mn></msub></mrow><mo>+</mo><mrow><msub><mi>x</mi><mn>2</mn></msub><mo>⁢</mo><msub><mi>y</mi><mn>1</mn></msub></mrow></mrow><mo>)</mo></mrow><mo>⁢</mo><mi>i</mi></mrow></mrow></mrow><mo lspace="0.280em">,</mo></mrow><annotation encoding="application/x-tex">\displaystyle{}={\left({x}_{1}{x}_{2}-{y}_{1}{y}_{2}\right)}+{\left({x}_{1}{y}%
+_{2}+{x}_{2}{y}_{1}\right)}i\;,</annotation></semantics></math></div>
+</div>
+</div>
+<p class="ltx_p">where in going from the second to the third line we used the definition <math id="SS2.p4.m3" class="ltx_Math" alttext="i^{2}=-1" display="inline"><semantics><mrow><msup><mi>i</mi><mn>2</mn></msup><mo>=</mo><mrow><mo>−</mo><mn>1</mn></mrow></mrow><annotation encoding="application/x-tex">i^{2}=-1</annotation></semantics></math>.</p>
+</div>
+<figure id="F3" class="ltx_figure">
+<div class="ltx_flex_figure">
+<div class="ltx_flex_cell ltx_flex_size_1">
+<figure id="F3.sf1" class="ltx_figure ltx_figure_panel ltx_align_center"><div class="bml-overflow-wrapper"><img src="Figures/Section5/argand_diagram.png" id="F3.sf1.g1" class="ltx_graphics ltx_img_landscape" width="240" height="113" alt="Refer to caption"></div>
+<figcaption class="ltx_caption"><span class="ltx_tag ltx_tag_figure"><span class="ltx_text" style="font-size:91%;">(a)</span> </span><math id="F3.sf1.m3" class="ltx_Math" alttext="{\rm Re}(z)" display="inline"><semantics><mrow><mi mathsize="91%">Re</mi><mo>⁢</mo><mrow><mo maxsize="91%" minsize="91%">(</mo><mi mathsize="91%">z</mi><mo maxsize="91%" minsize="91%">)</mo></mrow></mrow><annotation encoding="application/x-tex">{\rm Re}(z)</annotation></semantics></math><span class="ltx_text" style="font-size:91%;"> and <math id="F3.sf1.m4" class="ltx_Math" alttext="{\rm Im}(z)" display="inline"><semantics><mrow><mi>Im</mi><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mi>z</mi><mo stretchy="false">)</mo></mrow></mrow><annotation encoding="application/x-tex">{\rm Im}(z)</annotation></semantics></math>.</span></figcaption>
+</figure>
+</div>
+<div class="ltx_flex_break"></div>
+<div class="ltx_flex_cell ltx_flex_size_1">
+<figure id="F3.sf2" class="ltx_figure ltx_figure_panel ltx_align_center"><div class="bml-overflow-wrapper"><img src="Figures/Section5/complex_modulus.png" id="F3.sf2.g1" class="ltx_graphics ltx_img_landscape" width="240" height="82" alt="Refer to caption"></div>
+<figcaption class="ltx_caption"><span class="ltx_tag ltx_tag_figure"><span class="ltx_text" style="font-size:91%;">(b)</span> </span><math id="F3.sf2.m2" class="ltx_Math" alttext="|z|" display="inline"><semantics><mrow><mo maxsize="91%" minsize="91%">|</mo><mi mathsize="91%">z</mi><mo maxsize="91%" minsize="91%">|</mo></mrow><annotation encoding="application/x-tex">|z|</annotation></semantics></math><span class="ltx_text" style="font-size:91%;">.</span></figcaption>
+</figure>
+</div>
+</div>
+<figcaption class="ltx_caption ltx_centering"><span class="ltx_tag ltx_tag_figure"><span class="ltx_text" style="font-size:91%;">Figure 5.3</span>: </span><span class="ltx_text" style="font-size:91%;">Two plots of a complex number on an Argand diagram. (a) The real part is the <math id="F3.m3" class="ltx_Math" alttext="x" display="inline"><semantics><mi>x</mi><annotation encoding="application/x-tex">x</annotation></semantics></math>-coordinate and the imaginary part is the <math id="F3.m4" class="ltx_Math" alttext="y" display="inline"><semantics><mi>y</mi><annotation encoding="application/x-tex">y</annotation></semantics></math>-coordinate. (b) The modulus is the distance from the origin.</span></figcaption>
+</figure>
+<div id="SS2.p5" class="ltx_para ltx_noindent">
+<p class="ltx_p">The <span class="ltx_text ltx_font_bold">modulus</span> or <span class="ltx_text ltx_font_bold">magnitude</span> of a complex number is <math id="SS2.p5.m1" class="ltx_Math" alttext="\left|z\right|=\sqrt{z\overline{z}}" display="inline"><semantics><mrow><mrow><mo>|</mo><mi>z</mi><mo>|</mo></mrow><mo>=</mo><msqrt><mrow><mi>z</mi><mo>⁢</mo><mover accent="true"><mi>z</mi><mo>¯</mo></mover></mrow></msqrt></mrow><annotation encoding="application/x-tex">\left|z\right|=\sqrt{z\overline{z}}</annotation></semantics></math> Defining <math id="SS2.p5.m2" class="ltx_Math" alttext="z=x+yi" display="inline"><semantics><mrow><mi>z</mi><mo>=</mo><mrow><mi>x</mi><mo>+</mo><mrow><mi>y</mi><mo>⁢</mo><mi>i</mi></mrow></mrow></mrow><annotation encoding="application/x-tex">z=x+yi</annotation></semantics></math></p>
+<div id="EGx52" class="ltx_equationgroup ltx_eqn_align bml_equationgroup bml_equation_container ltx_align_baseline">
+<div id="SS2.E3" class="ltx_equation bml_equation ltx_align_baseline" role="region" aria-labelledby="bml-auto-id5">
+<span class="ltx_tag ltx_tag_equation ltx_eqn_eqno" id="bml-auto-id5"><span class="bml_sr_only">equation </span>(5.2.3)</span>
+<span class="ltx_tag ltx_tag_equation ltx_eqn_eqno">(5.2.3)</span>
+<div class="ltx_td ltx_align_center bml_eqn_cell"><math id="SS2.E3.m1" class="ltx_Math" alttext="\displaystyle\begin{split}\left|z\right|&amp;{}=\sqrt{(x+yi)(x-yi)}\\[4.0pt]
+&amp;{}=\sqrt{{x}^{2}+{y}^{2}}\;.\end{split}" display="inline"><semantics><mtable class="bml_alignment_aligned" columnspacing="0pt" rowspacing="0pt" style="border-spacing:0pt 0pt;"><mtr><mtd class="ltx_align_right" columnalign="right"><mrow><mo>|</mo><mi>z</mi><mo>|</mo></mrow></mtd><mtd class="ltx_align_left" columnalign="left"><mrow><mi></mi><mo>=</mo><msqrt><mrow><mrow><mo stretchy="false">(</mo><mrow><mi>x</mi><mo>+</mo><mrow><mi>y</mi><mo>⁢</mo><mi>i</mi></mrow></mrow><mo stretchy="false">)</mo></mrow><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mrow><mi>x</mi><mo>−</mo><mrow><mi>y</mi><mo>⁢</mo><mi>i</mi></mrow></mrow><mo stretchy="false">)</mo></mrow></mrow></msqrt></mrow></mtd></mtr><mtr><mtd></mtd><mtd class="ltx_align_left" columnalign="left"><mrow><mrow><mi></mi><mo>=</mo><msqrt><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><msup><mi>y</mi><mn>2</mn></msup></mrow></msqrt></mrow><mo>.</mo></mrow></mtd></mtr></mtable><annotation encoding="application/x-tex">\displaystyle\begin{split}\left|z\right|&amp;{}=\sqrt{(x+yi)(x-yi)}\\[4.0pt]
+&amp;{}=\sqrt{{x}^{2}+{y}^{2}}\;.\end{split}</annotation></semantics></math></div>
+</div>
+</div>
+<p class="ltx_p">Therefore, <math id="SS2.p5.m3" class="ltx_Math" alttext="|z|" display="inline"><semantics><mrow><mo stretchy="false">|</mo><mi>z</mi><mo stretchy="false">|</mo></mrow><annotation encoding="application/x-tex">|z|</annotation></semantics></math> is the distance from the origin on the Argand diagram, as shown in figure <a href="#F3" title="Figure 5.3 ‣ 5.2 Arithmetic of complex numbers ‣ 5 Complex Numbers ‣ MATH19641: Mathematics 1Q1 Lecture Notes (Completed version) – Weeks 1–8" class="ltx_ref"><span class="ltx_text ltx_ref_tag">5.3</span></a>(b).</p>
+</div>
+<div id="SS2.p6" class="ltx_para ltx_noindent">
+<p class="ltx_p">Consider again the two complex numbers <math id="SS2.p6.m1" class="ltx_Math" alttext="{z}_{1}={x}_{1}+{y}_{1}i" display="inline"><semantics><mrow><msub><mi>z</mi><mn>1</mn></msub><mo>=</mo><mrow><msub><mi>x</mi><mn>1</mn></msub><mo>+</mo><mrow><msub><mi>y</mi><mn>1</mn></msub><mo>⁢</mo><mi>i</mi></mrow></mrow></mrow><annotation encoding="application/x-tex">{z}_{1}={x}_{1}+{y}_{1}i</annotation></semantics></math> and <math id="SS2.p6.m2" class="ltx_Math" alttext="{z}_{2}={x}_{2}+{y}_{2}i" display="inline"><semantics><mrow><msub><mi>z</mi><mn>2</mn></msub><mo>=</mo><mrow><msub><mi>x</mi><mn>2</mn></msub><mo>+</mo><mrow><msub><mi>y</mi><mn>2</mn></msub><mo>⁢</mo><mi>i</mi></mrow></mrow></mrow><annotation encoding="application/x-tex">{z}_{2}={x}_{2}+{y}_{2}i</annotation></semantics></math>, the quotient is also a complex number</p>
+<div id="SS2.Ex9" class="ltx_equation bml_equation bml_equation_container ltx_align_baseline">
+<div class="ltx_Math bml_eqn_cell ltx_align_center"><math id="SS2.Ex9.m1" class="ltx_Math" alttext="\frac{{z}_{1}}{{z}_{2}}=\frac{{x}_{1}+{y}_{1}i}{{x}_{2}+{y}_{2}i}\,," display="block"><semantics><mrow><mrow><mfrac><msub><mi>z</mi><mn>1</mn></msub><msub><mi>z</mi><mn>2</mn></msub></mfrac><mo>=</mo><mfrac><mrow><msub><mi>x</mi><mn>1</mn></msub><mo>+</mo><mrow><msub><mi>y</mi><mn>1</mn></msub><mo>⁢</mo><mi>i</mi></mrow></mrow><mrow><msub><mi>x</mi><mn>2</mn></msub><mo>+</mo><mrow><msub><mi>y</mi><mn>2</mn></msub><mo>⁢</mo><mi>i</mi></mrow></mrow></mfrac></mrow><mo lspace="0.170em">,</mo></mrow><annotation encoding="application/x-tex">\frac{{z}_{1}}{{z}_{2}}=\frac{{x}_{1}+{y}_{1}i}{{x}_{2}+{y}_{2}i}\,,</annotation></semantics></math></div>
+</div>
+<p class="ltx_p">however it is not immediately clear how to write it in standard form. Compare this to dividing <math id="SS2.p6.m3" class="ltx_Math" alttext="{z}_{1}" display="inline"><semantics><msub><mi>z</mi><mn>1</mn></msub><annotation encoding="application/x-tex">{z}_{1}</annotation></semantics></math> by a real number <math id="SS2.p6.m4" class="ltx_Math" alttext="a" display="inline"><semantics><mi>a</mi><annotation encoding="application/x-tex">a</annotation></semantics></math></p>
+<div id="SS2.Ex10" class="ltx_equation bml_equation bml_equation_container ltx_align_baseline">
+<div class="ltx_Math bml_eqn_cell ltx_align_center"><math id="SS2.Ex10.m1" class="ltx_Math" alttext="\frac{{z}_{1}}{a}=\frac{{x}_{1}+{y}_{1}i}{a}=\frac{{x}_{1}}{a}+\frac{{y}_{1}}{%
+a}i\;." display="block"><semantics><mrow><mrow><mfrac><msub><mi>z</mi><mn>1</mn></msub><mi>a</mi></mfrac><mo>=</mo><mfrac><mrow><msub><mi>x</mi><mn>1</mn></msub><mo>+</mo><mrow><msub><mi>y</mi><mn>1</mn></msub><mo>⁢</mo><mi>i</mi></mrow></mrow><mi>a</mi></mfrac><mo>=</mo><mrow><mfrac><msub><mi>x</mi><mn>1</mn></msub><mi>a</mi></mfrac><mo>+</mo><mrow><mfrac><msub><mi>y</mi><mn>1</mn></msub><mi>a</mi></mfrac><mo>⁢</mo><mi>i</mi></mrow></mrow></mrow><mo>.</mo></mrow><annotation encoding="application/x-tex">\frac{{z}_{1}}{a}=\frac{{x}_{1}+{y}_{1}i}{a}=\frac{{x}_{1}}{a}+\frac{{y}_{1}}{%
+a}i\;.</annotation></semantics></math></div>
+</div>
+<p class="ltx_p">In this case it is straightforward to write this in standard form.</p>
+</div>
+<div id="SS2.p7" class="ltx_para ltx_noindent">
+<p class="ltx_p">In the case of <math id="SS2.p7.m1" class="ltx_Math" alttext="z_{1}/z_{2}" display="inline"><semantics><mrow><msub><mi>z</mi><mn>1</mn></msub><mo>/</mo><msub><mi>z</mi><mn>2</mn></msub></mrow><annotation encoding="application/x-tex">z_{1}/z_{2}</annotation></semantics></math>, we can always turn the complex number in the denominator <math id="SS2.p7.m2" class="ltx_Math" alttext="z_{2}" display="inline"><semantics><msub><mi>z</mi><mn>2</mn></msub><annotation encoding="application/x-tex">z_{2}</annotation></semantics></math> into a real number by multiplying top and bottom by <math id="SS2.p7.m3" class="ltx_Math" alttext="\overline{{z}_{2}}" display="inline"><semantics><mover accent="true"><msub><mi>z</mi><mn>2</mn></msub><mo>¯</mo></mover><annotation encoding="application/x-tex">\overline{{z}_{2}}</annotation></semantics></math></p>
+</div>
+<div id="SS2.p8" class="ltx_para ltx_noindent">
+<div id="EGx53" class="ltx_equationgroup ltx_eqn_align bml_equationgroup bml_equation_container ltx_align_baseline">
+<div id="SS2.E4" class="ltx_equation bml_equation ltx_align_baseline" role="region" aria-labelledby="bml-auto-id6">
+<span class="ltx_tag ltx_tag_equation ltx_eqn_eqno" id="bml-auto-id6"><span class="bml_sr_only">equation </span>(5.2.4)</span>
+<span class="ltx_tag ltx_tag_equation ltx_eqn_eqno">(5.2.4)</span>
+<div class="ltx_td ltx_align_right bml_eqn_cell"><math id="SS2.E4.m1" class="ltx_Math" alttext="\displaystyle\frac{{z}_{1}}{{z}_{2}}" display="inline"><semantics><mstyle displaystyle="true"><mfrac><msub><mi>z</mi><mn>1</mn></msub><msub><mi>z</mi><mn>2</mn></msub></mfrac></mstyle><annotation encoding="application/x-tex">\displaystyle\frac{{z}_{1}}{{z}_{2}}</annotation></semantics></math></div>
+<div class="ltx_td ltx_align_left bml_eqn_cell"><math id="SS2.E4.m2" class="ltx_Math" alttext="\displaystyle{}=\frac{{z}_{1}\overline{{z}_{2}}}{{z}_{2}\overline{{z}_{2}}}=%
+\frac{{z}_{1}\overline{{z}_{2}}}{{\left|{z}_{2}\right|}^{2}}\;." display="inline"><semantics><mrow><mrow><mi></mi><mo>=</mo><mstyle displaystyle="true"><mfrac><mrow><msub><mi>z</mi><mn>1</mn></msub><mo>⁢</mo><mover accent="true"><msub><mi>z</mi><mn>2</mn></msub><mo>¯</mo></mover></mrow><mrow><msub><mi>z</mi><mn>2</mn></msub><mo>⁢</mo><mover accent="true"><msub><mi>z</mi><mn>2</mn></msub><mo>¯</mo></mover></mrow></mfrac></mstyle><mo>=</mo><mstyle displaystyle="true"><mfrac><mrow><msub><mi>z</mi><mn>1</mn></msub><mo>⁢</mo><mover accent="true"><msub><mi>z</mi><mn>2</mn></msub><mo>¯</mo></mover></mrow><msup><mrow><mo>|</mo><msub><mi>z</mi><mn>2</mn></msub><mo>|</mo></mrow><mn>2</mn></msup></mfrac></mstyle></mrow><mo>.</mo></mrow><annotation encoding="application/x-tex">\displaystyle{}=\frac{{z}_{1}\overline{{z}_{2}}}{{z}_{2}\overline{{z}_{2}}}=%
+\frac{{z}_{1}\overline{{z}_{2}}}{{\left|{z}_{2}\right|}^{2}}\;.</annotation></semantics></math></div>
+</div>
+</div>
+<p class="ltx_p">We can now use the rules of complex number multiplication to write this quotient in standard form</p>
+<div id="SS2.Ex11" class="ltx_equation bml_equation bml_equation_container ltx_align_baseline">
+<div class="ltx_Math bml_eqn_cell ltx_align_center"><math id="SS2.Ex11.m1" class="ltx_Math" alttext="\frac{{z}_{1}}{{z}_{2}}=\frac{({x}_{1}+{y}_{1}i)({x}_{2}-{y}_{2}i)}{{\left({x}%
+_{2}\right)}^{2}+{\left({y}_{2}\right)}^{2}}={\frac{{x}_{1}{x}_{2}+{y}_{1}{y}_%
+{2}}{{\left({x}_{2}\right)}^{2}+{\left({y}_{2}\right)}^{2}}}+{\frac{{x}_{2}{y}%
+_{1}-{x}_{1}{y}_{2}}{{\left({x}_{2}\right)}^{2}+{\left({y}_{2}\right)}^{2}}}i\;." display="block"><semantics><mrow><mrow><mfrac><msub><mi>z</mi><mn>1</mn></msub><msub><mi>z</mi><mn>2</mn></msub></mfrac><mo>=</mo><mfrac><mrow><mrow><mo stretchy="false">(</mo><mrow><msub><mi>x</mi><mn>1</mn></msub><mo>+</mo><mrow><msub><mi>y</mi><mn>1</mn></msub><mo>⁢</mo><mi>i</mi></mrow></mrow><mo stretchy="false">)</mo></mrow><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mrow><msub><mi>x</mi><mn>2</mn></msub><mo>−</mo><mrow><msub><mi>y</mi><mn>2</mn></msub><mo>⁢</mo><mi>i</mi></mrow></mrow><mo stretchy="false">)</mo></mrow></mrow><mrow><msup><mrow><mo>(</mo><msub><mi>x</mi><mn>2</mn></msub><mo>)</mo></mrow><mn>2</mn></msup><mo>+</mo><msup><mrow><mo>(</mo><msub><mi>y</mi><mn>2</mn></msub><mo>)</mo></mrow><mn>2</mn></msup></mrow></mfrac><mo>=</mo><mrow><mfrac><mrow><mrow><msub><mi>x</mi><mn>1</mn></msub><mo>⁢</mo><msub><mi>x</mi><mn>2</mn></msub></mrow><mo>+</mo><mrow><msub><mi>y</mi><mn>1</mn></msub><mo>⁢</mo><msub><mi>y</mi><mn>2</mn></msub></mrow></mrow><mrow><msup><mrow><mo>(</mo><msub><mi>x</mi><mn>2</mn></msub><mo>)</mo></mrow><mn>2</mn></msup><mo>+</mo><msup><mrow><mo>(</mo><msub><mi>y</mi><mn>2</mn></msub><mo>)</mo></mrow><mn>2</mn></msup></mrow></mfrac><mo>+</mo><mrow><mfrac><mrow><mrow><msub><mi>x</mi><mn>2</mn></msub><mo>⁢</mo><msub><mi>y</mi><mn>1</mn></msub></mrow><mo>−</mo><mrow><msub><mi>x</mi><mn>1</mn></msub><mo>⁢</mo><msub><mi>y</mi><mn>2</mn></msub></mrow></mrow><mrow><msup><mrow><mo>(</mo><msub><mi>x</mi><mn>2</mn></msub><mo>)</mo></mrow><mn>2</mn></msup><mo>+</mo><msup><mrow><mo>(</mo><msub><mi>y</mi><mn>2</mn></msub><mo>)</mo></mrow><mn>2</mn></msup></mrow></mfrac><mo>⁢</mo><mi>i</mi></mrow></mrow></mrow><mo>.</mo></mrow><annotation encoding="application/x-tex">\frac{{z}_{1}}{{z}_{2}}=\frac{({x}_{1}+{y}_{1}i)({x}_{2}-{y}_{2}i)}{{\left({x}%
+_{2}\right)}^{2}+{\left({y}_{2}\right)}^{2}}={\frac{{x}_{1}{x}_{2}+{y}_{1}{y}_%
+{2}}{{\left({x}_{2}\right)}^{2}+{\left({y}_{2}\right)}^{2}}}+{\frac{{x}_{2}{y}%
+_{1}-{x}_{1}{y}_{2}}{{\left({x}_{2}\right)}^{2}+{\left({y}_{2}\right)}^{2}}}i\;.</annotation></semantics></math></div>
+</div>
+</div>
+<div id="SS2.p9" class="ltx_para ltx_noindent">
+<div class="ex-box">
+          
+          
+<div id="SS2.Thmex1" class="ltx_theorem ltx_theorem_ex" role="region" aria-labelledby="bml-auto-id7">
+<div class="ltx_title ltx_runin ltx_title_theorem">
+<span class="ltx_tag ltx_tag_theorem header-section-number" id="bml-auto-id7"><span class="ltx_text ltx_font_bold">Example 5.2.1</span></span><span class="ltx_text ltx_font_bold"> </span>(Lecture)<span class="ltx_text ltx_font_bold">.</span>
+</div>
+<div id="SS2.Thmex1.p1" class="ltx_para ltx_noindent">
+<p class="ltx_p">Given the two complex numbers <math id="SS2.Thmex1.p1.m1" class="ltx_Math" alttext="{z}_{1}=-3+4i" display="inline"><semantics><mrow><msub><mi>z</mi><mn>1</mn></msub><mo>=</mo><mrow><mrow><mo>−</mo><mn>3</mn></mrow><mo>+</mo><mrow><mn>4</mn><mo>⁢</mo><mi>i</mi></mrow></mrow></mrow><annotation encoding="application/x-tex">{z}_{1}=-3+4i</annotation></semantics></math> <math id="SS2.Thmex1.p1.m2" class="ltx_Math" alttext="{z}_{2}=5-5i" display="inline"><semantics><mrow><msub><mi>z</mi><mn>2</mn></msub><mo>=</mo><mrow><mn>5</mn><mo>−</mo><mrow><mn>5</mn><mo>⁢</mo><mi>i</mi></mrow></mrow></mrow><annotation encoding="application/x-tex">{z}_{2}=5-5i</annotation></semantics></math> find</p>
+</div>
+<div id="SS2.Thmex1.p2" class="ltx_para">
+<p class="ltx_p">(a) <math id="SS2.Thmex1.p2.m1" class="ltx_Math" alttext="{z}_{1}+{z}_{2}" display="inline"><semantics><mrow><msub><mi>z</mi><mn>1</mn></msub><mo>+</mo><msub><mi>z</mi><mn>2</mn></msub></mrow><annotation encoding="application/x-tex">{z}_{1}+{z}_{2}</annotation></semantics></math> and <math id="SS2.Thmex1.p2.m2" class="ltx_Math" alttext="{z}_{1}-{z}_{2}" display="inline"><semantics><mrow><msub><mi>z</mi><mn>1</mn></msub><mo>−</mo><msub><mi>z</mi><mn>2</mn></msub></mrow><annotation encoding="application/x-tex">{z}_{1}-{z}_{2}</annotation></semantics></math>   (b) <math id="SS2.Thmex1.p2.m3" class="ltx_Math" alttext="{z}_{1}{z}_{2}" display="inline"><semantics><mrow><msub><mi>z</mi><mn>1</mn></msub><mo>⁢</mo><msub><mi>z</mi><mn>2</mn></msub></mrow><annotation encoding="application/x-tex">{z}_{1}{z}_{2}</annotation></semantics></math>   (c) <math id="SS2.Thmex1.p2.m4" class="ltx_Math" alttext="\frac{{z}_{1}}{{z}_{2}}" display="inline"><semantics><mfrac><msub><mi>z</mi><mn>1</mn></msub><msub><mi>z</mi><mn>2</mn></msub></mfrac><annotation encoding="application/x-tex">\frac{{z}_{1}}{{z}_{2}}</annotation></semantics></math></p>
+</div>
+</div>
+        </div>
+<details>
+          <summary>Solution</summary>
+          <div class="box-content">
+            
+            
+<div id="EGx54" class="ltx_equationgroup ltx_eqn_align bml_equationgroup bml_equation_container ltx_align_baseline">
+<div id="SS2.Ex12" class="ltx_equation bml_equation ltx_align_baseline" role="group" aria-label="equation">
+<div class="ltx_td ltx_align_right bml_eqn_cell"><math id="SS2.Ex12.m1" class="ltx_Math" alttext="\displaystyle\text{(a)}\quad{z}_{1}+{z}_{2}=\left(-3+5\right)+\left(4-5\right)i" display="inline"><semantics><mrow><mrow><mtext>(a)</mtext><mspace width="1.1em"></mspace><mrow><msub><mi>z</mi><mn>1</mn></msub><mo>+</mo><msub><mi>z</mi><mn>2</mn></msub></mrow></mrow><mo>=</mo><mrow><mrow><mo>(</mo><mrow><mrow><mo>−</mo><mn>3</mn></mrow><mo>+</mo><mn>5</mn></mrow><mo>)</mo></mrow><mo>+</mo><mrow><mrow><mo>(</mo><mrow><mn>4</mn><mo>−</mo><mn>5</mn></mrow><mo>)</mo></mrow><mo>⁢</mo><mi>i</mi></mrow></mrow></mrow><annotation encoding="application/x-tex">\displaystyle\text{(a)}\quad{z}_{1}+{z}_{2}=\left(-3+5\right)+\left(4-5\right)i</annotation></semantics></math></div>
+<div class="ltx_td ltx_align_left bml_eqn_cell"><math id="SS2.Ex12.m2" class="ltx_Math" alttext="\displaystyle{}=2-i" display="inline"><semantics><mrow><mi></mi><mo>=</mo><mrow><mn>2</mn><mo>−</mo><mi>i</mi></mrow></mrow><annotation encoding="application/x-tex">\displaystyle{}=2-i</annotation></semantics></math></div>
+</div>
+<div id="SS2.Ex13" class="ltx_equation bml_equation ltx_align_baseline" role="group" aria-label="equation">
+<div class="ltx_td ltx_align_right bml_eqn_cell"><math id="SS2.Ex13.m1" class="ltx_Math" alttext="\displaystyle{z}_{1}-{z}_{2}=\left(-3-5\right)+\left(4+5\right)i" display="inline"><semantics><mrow><mrow><msub><mi>z</mi><mn>1</mn></msub><mo>−</mo><msub><mi>z</mi><mn>2</mn></msub></mrow><mo>=</mo><mrow><mrow><mo>(</mo><mrow><mrow><mo>−</mo><mn>3</mn></mrow><mo>−</mo><mn>5</mn></mrow><mo>)</mo></mrow><mo>+</mo><mrow><mrow><mo>(</mo><mrow><mn>4</mn><mo>+</mo><mn>5</mn></mrow><mo>)</mo></mrow><mo>⁢</mo><mi>i</mi></mrow></mrow></mrow><annotation encoding="application/x-tex">\displaystyle{z}_{1}-{z}_{2}=\left(-3-5\right)+\left(4+5\right)i</annotation></semantics></math></div>
+<div class="ltx_td ltx_align_left bml_eqn_cell"><math id="SS2.Ex13.m2" class="ltx_Math" alttext="\displaystyle{}=-8+9i" display="inline"><semantics><mrow><mi></mi><mo>=</mo><mrow><mrow><mo>−</mo><mn>8</mn></mrow><mo>+</mo><mrow><mn>9</mn><mo>⁢</mo><mi>i</mi></mrow></mrow></mrow><annotation encoding="application/x-tex">\displaystyle{}=-8+9i</annotation></semantics></math></div>
+</div>
+</div>
+            
+<div id="EGx55" class="ltx_equationgroup ltx_eqn_align bml_equationgroup bml_equation_container ltx_align_baseline">
+<div id="SS2.Ex14" class="ltx_equation bml_equation ltx_align_baseline" role="group" aria-label="equation">
+<div class="ltx_td ltx_align_right bml_eqn_cell"><math id="SS2.Ex14.m1" class="ltx_Math" alttext="\displaystyle\text{(b)}\quad{z}_{1}{z}_{2}" display="inline"><semantics><mrow><mtext>(b)</mtext><mspace width="1.1em"></mspace><mrow><msub><mi>z</mi><mn>1</mn></msub><mo>⁢</mo><msub><mi>z</mi><mn>2</mn></msub></mrow></mrow><annotation encoding="application/x-tex">\displaystyle\text{(b)}\quad{z}_{1}{z}_{2}</annotation></semantics></math></div>
+<div class="ltx_td ltx_align_left bml_eqn_cell"><math id="SS2.Ex14.m2" class="ltx_Math" alttext="\displaystyle{}=\left(-3+4i\right)\left(5-5i\right)" display="inline"><semantics><mrow><mi></mi><mo>=</mo><mrow><mrow><mo>(</mo><mrow><mrow><mo>−</mo><mn>3</mn></mrow><mo>+</mo><mrow><mn>4</mn><mo>⁢</mo><mi>i</mi></mrow></mrow><mo>)</mo></mrow><mo>⁢</mo><mrow><mo>(</mo><mrow><mn>5</mn><mo>−</mo><mrow><mn>5</mn><mo>⁢</mo><mi>i</mi></mrow></mrow><mo>)</mo></mrow></mrow></mrow><annotation encoding="application/x-tex">\displaystyle{}=\left(-3+4i\right)\left(5-5i\right)</annotation></semantics></math></div>
+</div>
+<div id="SS2.Ex15" class="ltx_equation bml_equation ltx_align_baseline" role="group" aria-label="equation">
+<div class="ltx_td bml_eqn_cell"></div>
+<div class="ltx_td ltx_align_left bml_eqn_cell"><math id="SS2.Ex15.m1" class="ltx_Math" alttext="\displaystyle{}=-15+20i+15i-20{i}^{2}=5+35i\;." display="inline"><semantics><mrow><mrow><mi></mi><mo>=</mo><mrow><mrow><mrow><mo>−</mo><mn>15</mn></mrow><mo>+</mo><mrow><mn>20</mn><mo>⁢</mo><mi>i</mi></mrow><mo>+</mo><mrow><mn>15</mn><mo>⁢</mo><mi>i</mi></mrow></mrow><mo>−</mo><mrow><mn>20</mn><mo>⁢</mo><msup><mi>i</mi><mn>2</mn></msup></mrow></mrow><mo>=</mo><mrow><mn>5</mn><mo>+</mo><mrow><mn>35</mn><mo>⁢</mo><mi>i</mi></mrow></mrow></mrow><mo>.</mo></mrow><annotation encoding="application/x-tex">\displaystyle{}=-15+20i+15i-20{i}^{2}=5+35i\;.</annotation></semantics></math></div>
+</div>
+</div>
+            
+<div id="EGx56" class="ltx_equationgroup ltx_eqn_align bml_equationgroup bml_equation_container ltx_align_baseline">
+<div id="SS2.Ex16" class="ltx_equation bml_equation ltx_align_baseline" role="group" aria-label="equation">
+<div class="ltx_td ltx_align_right bml_eqn_cell"><math id="SS2.Ex16.m1" class="ltx_Math" alttext="\displaystyle\text{(c)}\quad\frac{{z}_{1}}{{z}_{2}}" display="inline"><semantics><mrow><mtext>(c)</mtext><mspace width="1.1em"></mspace><mstyle displaystyle="true"><mfrac><msub><mi>z</mi><mn>1</mn></msub><msub><mi>z</mi><mn>2</mn></msub></mfrac></mstyle></mrow><annotation encoding="application/x-tex">\displaystyle\text{(c)}\quad\frac{{z}_{1}}{{z}_{2}}</annotation></semantics></math></div>
+<div class="ltx_td ltx_align_left bml_eqn_cell"><math id="SS2.Ex16.m2" class="ltx_Math" alttext="\displaystyle{}=\frac{\left(-3+4i\right)}{\left(5-5i\right)}=\frac{\left(-3+4i%
+\right)(5+5i)}{\left(5-5i\right)(5+5i)}" display="inline"><semantics><mrow><mi></mi><mo>=</mo><mstyle displaystyle="true"><mfrac><mrow><mo>(</mo><mrow><mrow><mo>−</mo><mn>3</mn></mrow><mo>+</mo><mrow><mn>4</mn><mo>⁢</mo><mi>i</mi></mrow></mrow><mo>)</mo></mrow><mrow><mo>(</mo><mrow><mn>5</mn><mo>−</mo><mrow><mn>5</mn><mo>⁢</mo><mi>i</mi></mrow></mrow><mo>)</mo></mrow></mfrac></mstyle><mo>=</mo><mstyle displaystyle="true"><mfrac><mrow><mrow><mo>(</mo><mrow><mrow><mo>−</mo><mn>3</mn></mrow><mo>+</mo><mrow><mn>4</mn><mo>⁢</mo><mi>i</mi></mrow></mrow><mo>)</mo></mrow><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mrow><mn>5</mn><mo>+</mo><mrow><mn>5</mn><mo>⁢</mo><mi>i</mi></mrow></mrow><mo stretchy="false">)</mo></mrow></mrow><mrow><mrow><mo>(</mo><mrow><mn>5</mn><mo>−</mo><mrow><mn>5</mn><mo>⁢</mo><mi>i</mi></mrow></mrow><mo>)</mo></mrow><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mrow><mn>5</mn><mo>+</mo><mrow><mn>5</mn><mo>⁢</mo><mi>i</mi></mrow></mrow><mo stretchy="false">)</mo></mrow></mrow></mfrac></mstyle></mrow><annotation encoding="application/x-tex">\displaystyle{}=\frac{\left(-3+4i\right)}{\left(5-5i\right)}=\frac{\left(-3+4i%
+\right)(5+5i)}{\left(5-5i\right)(5+5i)}</annotation></semantics></math></div>
+</div>
+<div id="SS2.Ex17" class="ltx_equation bml_equation ltx_align_baseline" role="group" aria-label="equation">
+<div class="ltx_td bml_eqn_cell"></div>
+<div class="ltx_td ltx_align_left bml_eqn_cell"><math id="SS2.Ex17.m1" class="ltx_Math" alttext="\displaystyle{}=\frac{\left(-15+20i-15i+20{i}^{2}\right)}{50}=\frac{-35+5i}{50%
+}=-\frac{7}{10}+\frac{1}{10}i" display="inline"><semantics><mrow><mi></mi><mo>=</mo><mstyle displaystyle="true"><mfrac><mrow><mo>(</mo><mrow><mrow><mrow><mrow><mo>−</mo><mn>15</mn></mrow><mo>+</mo><mrow><mn>20</mn><mo>⁢</mo><mi>i</mi></mrow></mrow><mo>−</mo><mrow><mn>15</mn><mo>⁢</mo><mi>i</mi></mrow></mrow><mo>+</mo><mrow><mn>20</mn><mo>⁢</mo><msup><mi>i</mi><mn>2</mn></msup></mrow></mrow><mo>)</mo></mrow><mn>50</mn></mfrac></mstyle><mo>=</mo><mstyle displaystyle="true"><mfrac><mrow><mrow><mo>−</mo><mn>35</mn></mrow><mo>+</mo><mrow><mn>5</mn><mo>⁢</mo><mi>i</mi></mrow></mrow><mn>50</mn></mfrac></mstyle><mo>=</mo><mrow><mrow><mo>−</mo><mstyle displaystyle="true"><mfrac><mn>7</mn><mn>10</mn></mfrac></mstyle></mrow><mo>+</mo><mrow><mstyle displaystyle="true"><mfrac><mn>1</mn><mn>10</mn></mfrac></mstyle><mo>⁢</mo><mi>i</mi></mrow></mrow></mrow><annotation encoding="application/x-tex">\displaystyle{}=\frac{\left(-15+20i-15i+20{i}^{2}\right)}{50}=\frac{-35+5i}{50%
+}=-\frac{7}{10}+\frac{1}{10}i</annotation></semantics></math></div>
+</div>
+</div>
+          </div>
+        </details>
+</div>
+<div id="SS2.p10" class="ltx_para ltx_noindent">
+<div class="ex-box">
+          
+          
+<div id="SS2.Thmex2" class="ltx_theorem ltx_theorem_ex" role="region" aria-labelledby="bml-auto-id8">
+<div class="ltx_title ltx_runin ltx_title_theorem">
+<span class="ltx_tag ltx_tag_theorem header-section-number" id="bml-auto-id8"><span class="ltx_text ltx_font_bold">Example 5.2.2</span></span><span class="ltx_text ltx_font_bold"> </span>(Video)<span class="ltx_text ltx_font_bold">.</span>
+</div>
+<div id="SS2.Thmex2.p1" class="ltx_para">
+<p class="ltx_p">Find the complex values of <math id="SS2.Thmex2.p1.m1" class="ltx_Math" alttext="z" display="inline"><semantics><mi>z</mi><annotation encoding="application/x-tex">z</annotation></semantics></math> that satisfy the equation</p>
+<div id="SS2.Ex18" class="ltx_equation bml_equation bml_equation_container ltx_align_baseline">
+<div class="ltx_Math bml_eqn_cell ltx_align_center"><math id="SS2.Ex18.m1" class="ltx_Math" alttext="z\overline{z}+11z+9\overline{z}+3-8i=0" display="block"><semantics><mrow><mrow><mrow><mrow><mi>z</mi><mo>⁢</mo><mover accent="true"><mi>z</mi><mo>¯</mo></mover></mrow><mo>+</mo><mrow><mn>11</mn><mo>⁢</mo><mi>z</mi></mrow><mo>+</mo><mrow><mn>9</mn><mo>⁢</mo><mover accent="true"><mi>z</mi><mo>¯</mo></mover></mrow><mo>+</mo><mn>3</mn></mrow><mo>−</mo><mrow><mn>8</mn><mo>⁢</mo><mi>i</mi></mrow></mrow><mo>=</mo><mn>0</mn></mrow><annotation encoding="application/x-tex">z\overline{z}+11z+9\overline{z}+3-8i=0</annotation></semantics></math></div>
+</div>
+</div>
+</div>
+        </div>
+</div>
+<div id="SS2.p11" class="ltx_para ltx_noindent">
+<details>
+          <summary>Solution</summary>
+          <div class="box-content">
+            
+            
+<p class="ltx_p">First write <math id="SS2.p11.m1" class="ltx_Math" alttext="z=x+yi" display="inline"><semantics><mrow><mi>z</mi><mo>=</mo><mrow><mi>x</mi><mo>+</mo><mrow><mi>y</mi><mo>⁢</mo><mi>i</mi></mrow></mrow></mrow><annotation encoding="application/x-tex">z=x+yi</annotation></semantics></math>, such that <math id="SS2.p11.m2" class="ltx_Math" alttext="\overline{z}=x-yi" display="inline"><semantics><mrow><mover accent="true"><mi>z</mi><mo>¯</mo></mover><mo>=</mo><mrow><mi>x</mi><mo>−</mo><mrow><mi>y</mi><mo>⁢</mo><mi>i</mi></mrow></mrow></mrow><annotation encoding="application/x-tex">\overline{z}=x-yi</annotation></semantics></math> and sub. in</p>
+            
+<div id="EGx57" class="ltx_equationgroup ltx_eqn_align bml_equationgroup bml_equation_container ltx_align_baseline">
+<div id="SS2.Ex19" class="ltx_equation bml_equation ltx_align_baseline" role="group" aria-label="equation">
+<div class="ltx_td ltx_align_right bml_eqn_cell"><math id="SS2.Ex19.m1" class="ltx_Math" alttext="\displaystyle\left(x+yi\right)\left(x-yi\right)+20x+2yi+3-8i" display="inline"><semantics><mrow><mrow><mrow><mrow><mo>(</mo><mrow><mi>x</mi><mo>+</mo><mrow><mi>y</mi><mo>⁢</mo><mi>i</mi></mrow></mrow><mo>)</mo></mrow><mo>⁢</mo><mrow><mo>(</mo><mrow><mi>x</mi><mo>−</mo><mrow><mi>y</mi><mo>⁢</mo><mi>i</mi></mrow></mrow><mo>)</mo></mrow></mrow><mo>+</mo><mrow><mn>20</mn><mo>⁢</mo><mi>x</mi></mrow><mo>+</mo><mrow><mn>2</mn><mo>⁢</mo><mi>y</mi><mo>⁢</mo><mi>i</mi></mrow><mo>+</mo><mn>3</mn></mrow><mo>−</mo><mrow><mn>8</mn><mo>⁢</mo><mi>i</mi></mrow></mrow><annotation encoding="application/x-tex">\displaystyle\left(x+yi\right)\left(x-yi\right)+20x+2yi+3-8i</annotation></semantics></math></div>
+<div class="ltx_td ltx_align_left bml_eqn_cell"><math id="SS2.Ex19.m2" class="ltx_Math" alttext="\displaystyle{}=0" display="inline"><semantics><mrow><mi></mi><mo>=</mo><mn>0</mn></mrow><annotation encoding="application/x-tex">\displaystyle{}=0</annotation></semantics></math></div>
+</div>
+<div id="SS2.Ex20" class="ltx_equation bml_equation ltx_align_baseline" role="group" aria-label="equation">
+<div class="ltx_td ltx_align_right bml_eqn_cell"><math id="SS2.Ex20.m1" class="ltx_Math" alttext="\displaystyle\therefore{x}^{2}+{y}^{2}+20x+3+\left(2y-8\right)i" display="inline"><semantics><mrow><mi></mi><mo>∴</mo><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><msup><mi>y</mi><mn>2</mn></msup><mo>+</mo><mrow><mn>20</mn><mo>⁢</mo><mi>x</mi></mrow><mo>+</mo><mn>3</mn><mo>+</mo><mrow><mrow><mo>(</mo><mrow><mrow><mn>2</mn><mo>⁢</mo><mi>y</mi></mrow><mo>−</mo><mn>8</mn></mrow><mo>)</mo></mrow><mo>⁢</mo><mi>i</mi></mrow></mrow></mrow><annotation encoding="application/x-tex">\displaystyle\therefore{x}^{2}+{y}^{2}+20x+3+\left(2y-8\right)i</annotation></semantics></math></div>
+<div class="ltx_td ltx_align_left bml_eqn_cell"><math id="SS2.Ex20.m2" class="ltx_Math" alttext="\displaystyle{}=0" display="inline"><semantics><mrow><mi></mi><mo>=</mo><mn>0</mn></mrow><annotation encoding="application/x-tex">\displaystyle{}=0</annotation></semantics></math></div>
+</div>
+</div>
+            
+<p class="ltx_p">Taking the imaginary part of both sides gives <math id="SS2.p11.m3" class="ltx_Math" alttext="2y-8=0" display="inline"><semantics><mrow><mrow><mrow><mn>2</mn><mo>⁢</mo><mi>y</mi></mrow><mo>−</mo><mn>8</mn></mrow><mo>=</mo><mn>0</mn></mrow><annotation encoding="application/x-tex">2y-8=0</annotation></semantics></math> so <math id="SS2.p11.m4" class="ltx_Math" alttext="y=4" display="inline"><semantics><mrow><mi>y</mi><mo>=</mo><mn>4</mn></mrow><annotation encoding="application/x-tex">y=4</annotation></semantics></math>.</p>
+            
+<p class="ltx_p">Taking the real part of both sides gives <math id="SS2.p11.m5" class="ltx_Math" alttext="{x}^{2}+{y}^{2}+20x+3=0" display="inline"><semantics><mrow><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><msup><mi>y</mi><mn>2</mn></msup><mo>+</mo><mrow><mn>20</mn><mo>⁢</mo><mi>x</mi></mrow><mo>+</mo><mn>3</mn></mrow><mo>=</mo><mn>0</mn></mrow><annotation encoding="application/x-tex">{x}^{2}+{y}^{2}+20x+3=0</annotation></semantics></math> or <math id="SS2.p11.m6" class="ltx_Math" alttext="{x}^{2}+20x+19=0" display="inline"><semantics><mrow><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mrow><mn>20</mn><mo>⁢</mo><mi>x</mi></mrow><mo>+</mo><mn>19</mn></mrow><mo>=</mo><mn>0</mn></mrow><annotation encoding="application/x-tex">{x}^{2}+20x+19=0</annotation></semantics></math>, which factorises to</p>
+            
+<div id="SS2.Ex21" class="ltx_equation bml_equation bml_equation_container ltx_align_baseline">
+<div class="ltx_Math bml_eqn_cell ltx_align_center"><math id="SS2.Ex21.m1" class="ltx_Math" alttext="\left(x+19\right)\left(x+1\right)=0" display="block"><semantics><mrow><mrow><mrow><mo>(</mo><mrow><mi>x</mi><mo>+</mo><mn>19</mn></mrow><mo>)</mo></mrow><mo>⁢</mo><mrow><mo>(</mo><mrow><mi>x</mi><mo>+</mo><mn>1</mn></mrow><mo>)</mo></mrow></mrow><mo>=</mo><mn>0</mn></mrow><annotation encoding="application/x-tex">\left(x+19\right)\left(x+1\right)=0</annotation></semantics></math></div>
+</div>
+            
+<p class="ltx_p">and so <math id="SS2.p11.m7" class="ltx_Math" alttext="x=-19" display="inline"><semantics><mrow><mi>x</mi><mo>=</mo><mrow><mo>−</mo><mn>19</mn></mrow></mrow><annotation encoding="application/x-tex">x=-19</annotation></semantics></math> or <math id="SS2.p11.m8" class="ltx_Math" alttext="x=-1" display="inline"><semantics><mrow><mi>x</mi><mo>=</mo><mrow><mo>−</mo><mn>1</mn></mrow></mrow><annotation encoding="application/x-tex">x=-1</annotation></semantics></math>. Putting it all together this means <math id="SS2.p11.m9" class="ltx_Math" alttext="z=-1+4i" display="inline"><semantics><mrow><mi>z</mi><mo>=</mo><mrow><mrow><mo>−</mo><mn>1</mn></mrow><mo>+</mo><mrow><mn>4</mn><mo>⁢</mo><mi>i</mi></mrow></mrow></mrow><annotation encoding="application/x-tex">z=-1+4i</annotation></semantics></math> or <math id="SS2.p11.m10" class="ltx_Math" alttext="z=-19+4i" display="inline"><semantics><mrow><mi>z</mi><mo>=</mo><mrow><mrow><mo>−</mo><mn>19</mn></mrow><mo>+</mo><mrow><mn>4</mn><mo>⁢</mo><mi>i</mi></mrow></mrow></mrow><annotation encoding="application/x-tex">z=-19+4i</annotation></semantics></math></p>
+          </div>
+        </details>
+</div>
+<div id="SS2.p12" class="ltx_para ltx_noindent">
+<div class="lo-box">
+          
+          <div class="lo-box-title">
+            
+            
+<p class="ltx_p">Recap</p>
+          </div>
+          <div class="box-content">
+            
+            
+<p class="ltx_p">Key points from section <a href="#SS2" title="5.2 Arithmetic of complex numbers ‣ 5 Complex Numbers ‣ MATH19641: Mathematics 1Q1 Lecture Notes (Completed version) – Weeks 1–8" class="ltx_ref"><span class="ltx_text ltx_ref_tag">5.2</span></a></p>
+            
+<ul id="I6" class="ltx_itemize">
+<li id="I6.i1" class="ltx_item" style="list-style-type:none;">
+<span class="ltx_tag ltx_tag_item">•</span><div id="I6.i1.p1" class="ltx_para ltx_noindent">​<p class="ltx_p">The imaginary number <math id="I6.i1.p1.m1" class="ltx_Math" alttext="i" display="inline"><semantics><mi>i</mi><annotation encoding="application/x-tex">i</annotation></semantics></math> can be treated like a variable where <math id="I6.i1.p1.m2" class="ltx_Math" alttext="{i}^{2}=-1" display="inline"><semantics><mrow><msup><mi>i</mi><mn>2</mn></msup><mo>=</mo><mrow><mo>−</mo><mn>1</mn></mrow></mrow><annotation encoding="application/x-tex">{i}^{2}=-1</annotation></semantics></math></p>
+</div>
+</li>
+<li id="I6.i2" class="ltx_item" style="list-style-type:none;">
+<span class="ltx_tag ltx_tag_item">•</span><div id="I6.i2.p1" class="ltx_para ltx_noindent">​<p class="ltx_p">To add complex numbers, simply add their real and imaginary parts.</p>
+</div>
+</li>
+<li id="I6.i3" class="ltx_item" style="list-style-type:none;">
+<span class="ltx_tag ltx_tag_item">•</span><div id="I6.i3.p1" class="ltx_para ltx_noindent">​<p class="ltx_p">To multiply, expand out and collect the real and imaginary parts.</p>
+</div>
+</li>
+<li id="I6.i4" class="ltx_item" style="list-style-type:none;">
+<span class="ltx_tag ltx_tag_item">•</span><div id="I6.i4.p1" class="ltx_para ltx_noindent">​<p class="ltx_p">To divide, multiply both numerator and denominator by the conjugate of the denominator, so that the denominator becomes a real number.</p>
+</div>
+</li>
+<li id="I6.i5" class="ltx_item" style="list-style-type:none;">
+<span class="ltx_tag ltx_tag_item">•</span><div id="I6.i5.p1" class="ltx_para ltx_noindent">​<p class="ltx_p">The magnitude of a complex number <math id="I6.i5.p1.m1" class="ltx_Math" alttext="z=x+yi" display="inline"><semantics><mrow><mi>z</mi><mo>=</mo><mrow><mi>x</mi><mo>+</mo><mrow><mi>y</mi><mo>⁢</mo><mi>i</mi></mrow></mrow></mrow><annotation encoding="application/x-tex">z=x+yi</annotation></semantics></math> is <math id="I6.i5.p1.m2" class="ltx_Math" alttext="\left|z\right|=\sqrt{{x}^{2}+{y}^{2}}" display="inline"><semantics><mrow><mrow><mo>|</mo><mi>z</mi><mo>|</mo></mrow><mo>=</mo><msqrt><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><msup><mi>y</mi><mn>2</mn></msup></mrow></msqrt></mrow><annotation encoding="application/x-tex">\left|z\right|=\sqrt{{x}^{2}+{y}^{2}}</annotation></semantics></math>.</p>
+</div>
+</li>
+</ul>
+          </div>
+        </div>
+</div>
+<div class="ltx_pagination ltx_role_newpage"></div>
+</div>
+</section>
+</div>
+</section>
+</div>
+</div>
+</div>
+<a href="S4.html" class="navigation navigation-prev" aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+</div>
+</div>
+</body>
+
+</html>
