@@ -3,6 +3,8 @@ Webpage for teaching materials
 
 ## MATH19641: Mathematics 1Q1 Notes
 
+[Week 9: Complete notes](https://carlwhitfield.github.io/complete_notes_week9/index.html)
+
 [Week 8: Complete notes](https://carlwhitfield.github.io/complete_notes_week8/index.html)
 
 [Week 7: Complete notes](https://carlwhitfield.github.io/complete_notes_week7/index.html)
