@@ -1,0 +1,33 @@
+ details { 
+   border: 4px solid; 
+   border-color: #215e21;
+   padding: 0.5em 1em; 
+   margin-bottom: 0.5em; 
+
+ } 
+  
+ summary { 
+   margin: -0.5em -1em; 
+   padding: 0.25em 0.5em; 
+   font-weight:600;
+    background-color: #215e21;
+    color:#ffffff;
+ } 
+
+
+.book.color-theme-1 details {
+border-color: #666633;
+} 
+
+.book.color-theme-1 summary {
+background-color: #666633;
+color:#ffeecc;
+}
+
+.book.color-theme-2 details { 
+border-color: #c6ebc6; 
+}    
+
+.book.color-theme-2 summary {
+background-color: #c6ebc6;
+color:#000000;
